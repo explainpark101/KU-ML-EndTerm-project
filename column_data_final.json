@@ -1,11 +1,14 @@
 {
     "used_columns": [
+        "http.content_length",
         "HTTP/1.1",
         "tcp.ack_raw",
         "http.request.uri.path",
+        "http.file_data",
         "TRACE",
         "Attack_type",
         "HTTP/1.0",
+        "http.referer",
         "tcp.payload",
         "frame.time",
         "POST",
