@@ -1,0 +1,23 @@
+{
+    "used_columns": [
+        "HTTP/1.1",
+        "tcp.ack_raw",
+        "http.request.uri.path",
+        "TRACE",
+        "Attack_type",
+        "HTTP/1.0",
+        "tcp.payload",
+        "frame.time",
+        "POST",
+        "index",
+        "tcp.options",
+        "GET",
+        "tcp.srcport",
+        "http.request.uri.query.key",
+        "tcp.len",
+        "tcp.ack",
+        "http.request.uri.query.value",
+        "tcp.seq",
+        "tcp.checksum"
+    ]
+}
