@@ -1,6 +1,17 @@
+from typing import Iterable
 import pandas as pd
 
-def classify_features(dataFrame:pd.DataFrame, no_remove=[], exception=lambda column: False, debug=False):
+def classify_features(dataFrame:pd.DataFrame, no_remove:Iterable=[], debug=False) -> tuple[list, list]:
+    """kills columns with only unique value.
+
+    Args:
+        dataFrame (pd.DataFrame): Target Dataframe for processing
+        no_remove (list, optional): List of columns that you don't want to remove even though it is only unique value column. Defaults to [].
+        debug (bool, optional): print the removed columns. Defaults to False.
+
+    Returns:
+        tuple[list, list] : list of used columns, list of only unique value columns.
+    """
     temp_cols = dataFrame.columns
     used = list(temp_cols[:])
     unused = []
@@ -12,7 +23,6 @@ def classify_features(dataFrame:pd.DataFrame, no_remove=[], exception=lambda col
                 unused.append(col)
                 continue
         except: 
-            if exception(col):
-                used.remove(col)
-                unused.append(col)
+            used.remove(col)
+            unused.append(col)
     return list(set(used)), list(set(unused))
