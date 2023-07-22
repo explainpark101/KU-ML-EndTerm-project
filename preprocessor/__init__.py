@@ -1,7 +1,7 @@
 from typing import Iterable
 import pandas as pd
 
-def classify_features(dataFrame:pd.DataFrame, no_remove:Iterable=[], debug=False) -> tuple[list, list]:
+def classify_features(dataFrame, no_remove=[], debug=False):
     """kills columns with only unique value.
 
     Args:

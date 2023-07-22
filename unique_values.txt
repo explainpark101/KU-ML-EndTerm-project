@@ -1,43 +1,17 @@
 {
-  "ip.src_host": {
-    "count": 6,
-    "unique_columns": [
-      "192.168.0.170",
-      "192.168.0.128",
-      "0",
-      "0.0.0.0",
-      "172.217.19.42",
-      "104.16.87.20"
-    ]
-  },
-  "frame.time": {
-    "count": 1158100,
-    "unique_columns": [
-      " 2021 01:45:35.961572000 ",
-      " 2021 01:45:35.961638000 ",
-      " 2021 01:45:35.964143000 ",
-      " 2021 01:45:35.964199000 ",
-      " 2021 01:45:35.974758000 ",
-      " 2021 01:45:35.974841000 ",
-      " 2021 01:45:35.976362000 ",
-      " 2021 01:45:35.976424000 ",
-      " 2021 01:45:35.976770000 ",
-      " 2021 01:45:35.976795000 "
-    ]
-  },
-  "http.request.uri.query": {
-    "count": 3838,
+  "tcp.len": {
+    "count": 223,
     "unique_columns": [
       0.0,
-      "0",
-      "id=2&Submit=Submitid=53",
-      "id=2%27.%22%29%28%2C.%28.%28&Submit=Submitid=53",
-      "id=2%27FHBrxG%3C%27%22%3EBjxRQk&Submit=Submitid=53",
-      "id=2%29%20AND%209522%3D9017%20AND%20%285824%3D5824&Submit=Submitid=53",
-      "id=2%20AND%205107%3D2126&Submit=Submitid=53",
-      "id=2%20AND%201053%3D6910--%20kVQK&Submit=Submitid=53",
-      "id=2%27%29%20AND%207764%3D2930%20AND%20%28%27EUel%27%3D%27EUel&Submit=Submitid=53",
-      "id=2%27%20AND%205186%3D5150%20AND%20%27omoG%27%3D%27omoG&Submit=Submitid=53"
+      86.0,
+      1448.0,
+      429.0,
+      260.0,
+      261.0,
+      302.0,
+      221.0,
+      310.0,
+      580.0
     ]
   },
   "tcp.checksum": {
@@ -55,6 +29,21 @@
       "0x0000ffb0"
     ]
   },
+  "tcp.ack": {
+    "count": 381,
+    "unique_columns": [
+      0.0,
+      1.0,
+      87.0,
+      1878.0,
+      1449.0,
+      1879.0,
+      88.0,
+      261.0,
+      262.0,
+      303.0
+    ]
+  },
   "http.response": {
     "count": 2,
     "unique_columns": [
@@ -62,25 +51,47 @@
       1.0
     ]
   },
-  "arp.src.proto_ipv4": {
-    "count": 7,
+  "tcp.connection.fin": {
+    "count": 2,
     "unique_columns": [
-      "0",
-      "192.168.0.128",
-      "192.168.0.1",
-      "192.168.0.101",
-      "192.168.0.152",
-      0,
-      "192.168.0.170"
+      0.0,
+      1.0
     ]
   },
-  "http.request.method": {
-    "count": 4,
+  "ip.dst_host": {
+    "count": 8,
+    "unique_columns": [
+      "192.168.0.128",
+      "192.168.0.170",
+      "0",
+      "224.0.0.1",
+      "224.0.0.252",
+      "224.0.0.251",
+      "172.217.19.42",
+      "104.16.87.20"
+    ]
+  },
+  "http.request.version": {
+    "count": 3,
     "unique_columns": [
       "0",
-      "GET",
-      "POST",
-      "TRACE"
+      "HTTP/1.0",
+      "HTTP/1.1"
+    ]
+  },
+  "tcp.options": {
+    "count": 898436,
+    "unique_columns": [
+      "020405b40402080a9a8a02950000000001030307",
+      "020405b40402080ad3a239329a8a029501030307",
+      "020405b40402080a9a8a02980000000001030307",
+      "020405b40402080ad3a239359a8a029801030307",
+      "0101080a9a8a02a2d3a23932",
+      "0101080ad3a2393f9a8a02a2",
+      "0101080a9a8a02a3d3a23935",
+      "0101080ad3a239419a8a02a3",
+      "0101080a9a8a0299d3a23932",
+      "0101080ad3a239419a8a02a2"
     ]
   },
   "http.content_length": {
@@ -104,235 +115,27 @@
       "XSS"
     ]
   },
-  "http.request.full_uri": {
-    "count": 3840,
+  "http.request.uri.query": {
+    "count": 3838,
     "unique_columns": [
+      0.0,
       "0",
-      "http://192.168.0.128/DVWA/login.php",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27.%22%29%28%2C.%28.%28&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27FHBrxG%3C%27%22%3EBjxRQk&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%29%20AND%209522%3D9017%20AND%20%285824%3D5824&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%20AND%205107%3D2126&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%20AND%201053%3D6910--%20kVQK&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27%29%20AND%207764%3D2930%20AND%20%28%27EUel%27%3D%27EUel&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27%20AND%205186%3D5150%20AND%20%27omoG%27%3D%27omoG&Submit=Submitid=53"
+      "id=2&Submit=Submitid=53",
+      "id=2%27.%22%29%28%2C.%28.%28&Submit=Submitid=53",
+      "id=2%27FHBrxG%3C%27%22%3EBjxRQk&Submit=Submitid=53",
+      "id=2%29%20AND%209522%3D9017%20AND%20%285824%3D5824&Submit=Submitid=53",
+      "id=2%20AND%205107%3D2126&Submit=Submitid=53",
+      "id=2%20AND%201053%3D6910--%20kVQK&Submit=Submitid=53",
+      "id=2%27%29%20AND%207764%3D2930%20AND%20%28%27EUel%27%3D%27EUel&Submit=Submitid=53",
+      "id=2%27%20AND%205186%3D5150%20AND%20%27omoG%27%3D%27omoG&Submit=Submitid=53"
     ]
   },
-  "arp.dst.proto_ipv4": {
-    "count": 6,
-    "unique_columns": [
-      "0",
-      "192.168.0.1",
-      "192.168.0.128",
-      "192.168.0.152",
-      0,
-      "192.168.0.170"
-    ]
-  },
-  "tcp.connection.rst": {
-    "count": 2,
-    "unique_columns": [
-      0.0,
-      1.0
-    ]
-  },
-  "arp.hw.size": {
-    "count": 2,
-    "unique_columns": [
-      0.0,
-      6.0
-    ]
-  },
-  "tcp.len": {
-    "count": 223,
-    "unique_columns": [
-      0.0,
-      86.0,
-      1448.0,
-      429.0,
-      260.0,
-      261.0,
-      302.0,
-      221.0,
-      310.0,
-      580.0
-    ]
-  },
-  "tcp.seq": {
-    "count": 387,
-    "unique_columns": [
-      0.0,
-      1.0,
-      1449.0,
-      1878.0,
-      87.0,
-      1879.0,
-      303.0,
-      304.0,
-      261.0,
-      262.0
-    ]
-  },
-  "tcp.options": {
-    "count": 898436,
-    "unique_columns": [
-      "020405b40402080a9a8a02950000000001030307",
-      "020405b40402080ad3a239329a8a029501030307",
-      "020405b40402080a9a8a02980000000001030307",
-      "020405b40402080ad3a239359a8a029801030307",
-      "0101080a9a8a02a2d3a23932",
-      "0101080ad3a2393f9a8a02a2",
-      "0101080a9a8a02a3d3a23935",
-      "0101080ad3a239419a8a02a3",
-      "0101080a9a8a0299d3a23932",
-      "0101080ad3a239419a8a02a2"
-    ]
-  },
-  "tcp.connection.syn": {
-    "count": 2,
-    "unique_columns": [
-      1.0,
-      0.0
-    ]
-  },
-  "http.referer": {
+  "arp.opcode": {
     "count": 3,
     "unique_columns": [
       0.0,
-      "0",
-      "127.0.0.1"
-    ]
-  },
-  "ip.dst_host": {
-    "count": 8,
-    "unique_columns": [
-      "192.168.0.128",
-      "192.168.0.170",
-      "0",
-      "224.0.0.1",
-      "224.0.0.252",
-      "224.0.0.251",
-      "172.217.19.42",
-      "104.16.87.20"
-    ]
-  },
-  "tcp.flags.ack": {
-    "count": 2,
-    "unique_columns": [
-      0.0,
-      1.0
-    ]
-  },
-  "tcp.ack_raw": {
-    "count": 564655,
-    "unique_columns": [
-      0.0,
-      1535384924.0,
-      3550768328.0,
-      2788267429.0,
-      1535385010.0,
-      317324030.0,
-      3550768414.0,
-      2788269306.0,
-      317325478.0,
-      317325907.0
-    ]
-  },
-  "tcp.connection.fin": {
-    "count": 2,
-    "unique_columns": [
-      0.0,
-      1.0
-    ]
-  },
-  "tcp.dstport": {
-    "count": 14122,
-    "unique_columns": [
-      80.0,
-      37670.0,
-      37672.0,
-      37674.0,
-      37676.0,
-      37678.0,
-      37680.0,
-      37684.0,
-      37686.0,
-      37688.0
-    ]
-  },
-  "tcp.flags": {
-    "count": 9,
-    "unique_columns": [
-      "0x00000002",
-      "0x00000012",
-      "0x00000018",
-      "0x00000010",
-      "0x00000011",
-      "0x00000004",
-      "0",
-      "0x00000019",
-      "0x00000014"
-    ]
-  },
-  "http.request.version": {
-    "count": 3,
-    "unique_columns": [
-      "0",
-      "HTTP/1.0",
-      "HTTP/1.1"
-    ]
-  },
-  "tcp.ack": {
-    "count": 381,
-    "unique_columns": [
-      0.0,
       1.0,
-      87.0,
-      1878.0,
-      1449.0,
-      1879.0,
-      88.0,
-      261.0,
-      262.0,
-      303.0
-    ]
-  },
-  "http.file_data": {
-    "count": 45948,
-    "unique_columns": [
-      "0",
-      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='06ad09a3c77083f14c9e2be9f82911ba' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>",
-      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='9aa92207cdadbd782dc6a224c89517ad' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>",
-      "username=admin&password=0&Login=Login",
-      "username=admin&password=00&Login=Login",
-      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='122baa2c154b29d77d9cee80f00dac3a' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<div class=\"message\">CSRF token is incorrect</div>\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>",
-      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='f9eb28cbec36b9cb5d9d965c475b056e' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<div class=\"message\">CSRF token is incorrect</div>\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>",
-      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='6e8f3792e2823f7ca660a86ba652d9b8' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>",
-      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='1a567f4a5293874fd53ec1205f63fa18' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>",
-      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='46e4eccda1eeac8294d50e892b1a4dfe' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<div class=\"message\">CSRF token is incorrect</div>\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>"
-    ]
-  },
-  "tcp.connection.synack": {
-    "count": 2,
-    "unique_columns": [
-      0.0,
-      1.0
-    ]
-  },
-  "tcp.payload": {
-    "count": 117472,
-    "unique_columns": [
-      "0",
-      "474554202f445657412f6c6f67696e2e70687020485454502f312e300d0a486f73743a203139322e3136382e302e3132380d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284879647261290d0a0d0a",
-      "485454502f312e3120323030204f4b0d0a446174653a205361742c2030342044656320323032312030303a34353a333520474d540d0a5365727665723a204170616368652f322e342e33382028526173706269616e290d0a5365742d436f6f6b69653a205048505345535349443d627162717231383739306d63716f32676e3566656c313074336f3b20706174683d2f0d0a457870697265733a205475652c203233204a756e20323030392031323a30303a303020474d540d0a43616368652d436f6e74726f6c3a206e6f2d63616368652c206d7573742d726576616c69646174650d0a507261676d613a206e6f2d63616368650d0a5365742d436f6f6b69653a205048505345535349443d627162717231383739306d63716f32676e3566656c313074336f3b20706174683d2f3b20487474704f6e6c790d0a5365742d436f6f6b69653a2073656375726974793d696d706f737369626c653b20487474704f6e6c790d0a566172793a204163636570742d456e636f64696e670d0a436f6e74656e742d4c656e6774683a20313431350d0a436f6e6e656374696f6e3a20636c6f73650d0a436f6e74656e742d547970653a20746578742f68746d6c3b636861727365743d7574662d380d0a0d0a3c21444f43545950452068746d6c3e0d0a0d0a3c68746d6c206c616e673d22656e2d4742223e0d0a0d0a093c686561643e0d0a0d0a09093c6d65746120687474702d65717569763d22436f6e74656e742d547970652220636f6e74656e743d22746578742f68746d6c3b20636861727365743d5554462d3822202f3e0d0a0d0a09093c7469746c653e4c6f67696e203a3a2044616d6e2056756c6e657261626c6520576562204170706c69636174696f6e202844565741292076312e3130202a446576656c6f706d656e742a3c2f7469746c653e0d0a0d0a09093c6c696e6b2072656c3d227374796c6573686565742220747970653d22746578742f6373732220687265663d22647677612f6373732f6c6f67696e2e63737322202f3e0d0a0d0a093c2f686561643e0d0a0d0a093c626f64793e0d0a0d0a093c6469762069643d2277726170706572223e0d0a0d0a093c6469762069643d22686561646572223e0d0a0d0a093c6272202f3e0d0a0d0a093c703e3c696d67207372633d22647677612f696d616765732f6c6f67696e5f6c6f676f2e706e6722202f3e3c2f703e0d0a0d0a093c6272202f3e0d0a0d0a093c2f6469763e203c212d2d3c6469762069643d22686561646572223e2d2d3e0d0a0d0a093c6469762069643d22636f6e74656e74223e0d0a0d0a093c666f726d20616374696f6e3d226c6f67696e2e70687022206d6574686f643d22706f7374223e0d0a0d0a093c6669656c647365743e0d0a0d0a0909093c6c6162656c20666f723d2275736572223e557365726e616d653c2f6c6162656c3e203c696e70757420747970653d22746578742220636c6173733d226c6f67696e496e707574222073697a653d22323022206e616d653d22757365726e616d65223e3c6272202f3e0d0a0d0a0d0a0909093c6c6162656c20666f723d2270617373223e50617373776f72643c2f6c6162656c3e203c696e70757420747970653d2270617373776f72642220636c6173733d226c6f67696e496e70757422204155544f434f4d504c4554453d226f6666222073697a653d22323022206e616d653d2270617373776f7264223e3c6272202f3e0d0a0d0a0909093c6272202f3e0d0a0d0a0909093c7020636c6173733d227375626d6974223e3c696e70757420747970653d227375626d6974222076616c75653d224c6f67696e22206e616d653d224c6f67696e223e3c2f703e0d0a0d0a093c2f6669656c647365743e0d0a0d0a093c696e70757420747970653d2768696464656e27206e616d653d27757365725f746f6b656e272076616c75653d27303661643039613363373730383366313463396532626539663832393131626127202f",
-      "3e0d0a0d0a093c2f666f726d3e0d0a0d0a093c6272202f3e0d0a0d0a090d0a0d0a093c6272202f3e0d0a093c6272202f3e0d0a093c6272202f3e0d0a093c6272202f3e0d0a093c6272202f3e0d0a093c6272202f3e0d0a093c6272202f3e0d0a093c6272202f3e0d0a0d0a093c212d2d203c696d67207372633d22647677612f696d616765732f52616e646f6d53746f726d2e706e6722202f3e202d2d3e0d0a093c2f646976203e203c212d2d3c6469762069643d22636f6e74656e74223e2d2d3e0d0a0d0a093c6469762069643d22666f6f746572223e0d0a0d0a093c703e3c6120687265663d2268747470733a2f2f6769746875622e636f6d2f646967696e696e6a612f445657412f22207461726765743d225f626c616e6b223e44616d6e2056756c6e657261626c6520576562204170706c69636174696f6e202844565741293c2f613e3c2f703e0d0a0d0a093c2f6469763e203c212d2d3c6469762069643d22666f6f746572223e202d2d3e0d0a0d0a093c2f6469763e203c212d2d3c6469762069643d2277726170706572223e202d2d3e0d0a0d0a093c2f626f64793e0d0a0d0a3c2f68746d6c3e",
-      "485454502f312e3120323030204f4b0d0a446174653a205361742c2030342044656320323032312030303a34353a333520474d540d0a5365727665723a204170616368652f322e342e33382028526173706269616e290d0a5365742d436f6f6b69653a205048505345535349443d646436677435766d6b346d69676a3935756374366d7039386b653b20706174683d2f0d0a457870697265733a205475652c203233204a756e20323030392031323a30303a303020474d540d0a43616368652d436f6e74726f6c3a206e6f2d63616368652c206d7573742d726576616c69646174650d0a507261676d613a206e6f2d63616368650d0a5365742d436f6f6b69653a205048505345535349443d646436677435766d6b346d69676a3935756374366d7039386b653b20706174683d2f3b20487474704f6e6c790d0a5365742d436f6f6b69653a2073656375726974793d696d706f737369626c653b20487474704f6e6c790d0a566172793a204163636570742d456e636f64696e670d0a436f6e74656e742d4c656e6774683a20313431350d0a436f6e6e656374696f6e3a20636c6f73650d0a436f6e74656e742d547970653a20746578742f68746d6c3b636861727365743d7574662d380d0a0d0a3c21444f43545950452068746d6c3e0d0a0d0a3c68746d6c206c616e673d22656e2d4742223e0d0a0d0a093c686561643e0d0a0d0a09093c6d65746120687474702d65717569763d22436f6e74656e742d547970652220636f6e74656e743d22746578742f68746d6c3b20636861727365743d5554462d3822202f3e0d0a0d0a09093c7469746c653e4c6f67696e203a3a2044616d6e2056756c6e657261626c6520576562204170706c69636174696f6e202844565741292076312e3130202a446576656c6f706d656e742a3c2f7469746c653e0d0a0d0a09093c6c696e6b2072656c3d227374796c6573686565742220747970653d22746578742f6373732220687265663d22647677612f6373732f6c6f67696e2e63737322202f3e0d0a0d0a093c2f686561643e0d0a0d0a093c626f64793e0d0a0d0a093c6469762069643d2277726170706572223e0d0a0d0a093c6469762069643d22686561646572223e0d0a0d0a093c6272202f3e0d0a0d0a093c703e3c696d67207372633d22647677612f696d616765732f6c6f67696e5f6c6f676f2e706e6722202f3e3c2f703e0d0a0d0a093c6272202f3e0d0a0d0a093c2f6469763e203c212d2d3c6469762069643d22686561646572223e2d2d3e0d0a0d0a093c6469762069643d22636f6e74656e74223e0d0a0d0a093c666f726d20616374696f6e3d226c6f67696e2e70687022206d6574686f643d22706f7374223e0d0a0d0a093c6669656c647365743e0d0a0d0a0909093c6c6162656c20666f723d2275736572223e557365726e616d653c2f6c6162656c3e203c696e70757420747970653d22746578742220636c6173733d226c6f67696e496e707574222073697a653d22323022206e616d653d22757365726e616d65223e3c6272202f3e0d0a0d0a0d0a0909093c6c6162656c20666f723d2270617373223e50617373776f72643c2f6c6162656c3e203c696e70757420747970653d2270617373776f72642220636c6173733d226c6f67696e496e70757422204155544f434f4d504c4554453d226f6666222073697a653d22323022206e616d653d2270617373776f7264223e3c6272202f3e0d0a0d0a0909093c6272202f3e0d0a0d0a0909093c7020636c6173733d227375626d6974223e3c696e70757420747970653d227375626d6974222076616c75653d224c6f67696e22206e616d653d224c6f67696e223e3c2f703e0d0a0d0a093c2f6669656c647365743e0d0a0d0a093c696e70757420747970653d2768696464656e27206e616d653d27757365725f746f6b656e272076616c75653d27396161393232303763646164626437383264633661323234633839353137616427202f",
-      "504f5354202f445657412f6c6f67696e2e70687020485454502f312e300d0a486f73743a203139322e3136382e302e3132380d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284879647261290d0a436f6e74656e742d4c656e6774683a2033370d0a436f6e74656e742d547970653a206170706c69636174696f6e2f782d7777772d666f726d2d75726c656e636f6465640d0a436f6f6b69653a205048505345535349443d627162717231383739306d63716f32676e3566656c313074336f3b2073656375726974793d696d706f737369626c650d0a0d0a757365726e616d653d61646d696e2670617373776f72643d30264c6f67696e3d4c6f67696e",
-      "504f5354202f445657412f6c6f67696e2e70687020485454502f312e300d0a486f73743a203139322e3136382e302e3132380d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284879647261290d0a436f6e74656e742d4c656e6774683a2033380d0a436f6e74656e742d547970653a206170706c69636174696f6e2f782d7777772d666f726d2d75726c656e636f6465640d0a436f6f6b69653a205048505345535349443d646436677435766d6b346d69676a3935756374366d7039386b653b2073656375726974793d696d706f737369626c650d0a0d0a757365726e616d653d61646d696e2670617373776f72643d3030264c6f67696e3d4c6f67696e",
-      "485454502f312e312033303220466f756e640d0a446174653a205361742c2030342044656320323032312030303a34353a333620474d540d0a5365727665723a204170616368652f322e342e33382028526173706269616e290d0a457870697265733a205468752c203139204e6f7620313938312030383a35323a303020474d540d0a43616368652d436f6e74726f6c3a206e6f2d73746f72652c206e6f2d63616368652c206d7573742d726576616c69646174650d0a507261676d613a206e6f2d63616368650d0a4c6f636174696f6e3a206c6f67696e2e7068700d0a436f6e74656e742d4c656e6774683a20300d0a436f6e6e656374696f6e3a20636c6f73650d0a436f6e74656e742d547970653a20746578742f68746d6c3b20636861727365743d5554462d380d0a0d0a",
-      "474554202f445657412f6c6f67696e2e70687020485454502f312e300d0a486f73743a203139322e3136382e302e3132380d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284879647261290d0a436f6e74656e742d4c656e6774683a20300d0a436f6e74656e742d547970653a206170706c69636174696f6e2f782d7777772d666f726d2d75726c656e636f6465640d0a436f6f6b69653a205048505345535349443d627162717231383739306d63716f32676e3566656c313074336f3b2073656375726974793d696d706f737369626c650d0a0d0a",
-      "474554202f445657412f6c6f67696e2e70687020485454502f312e300d0a486f73743a203139322e3136382e302e3132380d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284879647261290d0a436f6e74656e742d4c656e6774683a20300d0a436f6e74656e742d547970653a206170706c69636174696f6e2f782d7777772d666f726d2d75726c656e636f6465640d0a436f6f6b69653a205048505345535349443d646436677435766d6b346d69676a3935756374366d7039386b653b2073656375726974793d696d706f737369626c650d0a0d0a"
+      2.0
     ]
   },
   "tcp.srcport": {
@@ -350,12 +153,209 @@
       37688.0
     ]
   },
-  "arp.opcode": {
-    "count": 3,
+  "http.request.method": {
+    "count": 4,
+    "unique_columns": [
+      "0",
+      "GET",
+      "POST",
+      "TRACE"
+    ]
+  },
+  "tcp.payload": {
+    "count": 117472,
+    "unique_columns": [
+      "0",
+      "474554202f445657412f6c6f67696e2e70687020485454502f312e300d0a486f73743a203139322e3136382e302e3132380d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284879647261290d0a0d0a",
+      "485454502f312e3120323030204f4b0d0a446174653a205361742c2030342044656320323032312030303a34353a333520474d540d0a5365727665723a204170616368652f322e342e33382028526173706269616e290d0a5365742d436f6f6b69653a205048505345535349443d627162717231383739306d63716f32676e3566656c313074336f3b20706174683d2f0d0a457870697265733a205475652c203233204a756e20323030392031323a30303a303020474d540d0a43616368652d436f6e74726f6c3a206e6f2d63616368652c206d7573742d726576616c69646174650d0a507261676d613a206e6f2d63616368650d0a5365742d436f6f6b69653a205048505345535349443d627162717231383739306d63716f32676e3566656c313074336f3b20706174683d2f3b20487474704f6e6c790d0a5365742d436f6f6b69653a2073656375726974793d696d706f737369626c653b20487474704f6e6c790d0a566172793a204163636570742d456e636f64696e670d0a436f6e74656e742d4c656e6774683a20313431350d0a436f6e6e656374696f6e3a20636c6f73650d0a436f6e74656e742d547970653a20746578742f68746d6c3b636861727365743d7574662d380d0a0d0a3c21444f43545950452068746d6c3e0d0a0d0a3c68746d6c206c616e673d22656e2d4742223e0d0a0d0a093c686561643e0d0a0d0a09093c6d65746120687474702d65717569763d22436f6e74656e742d547970652220636f6e74656e743d22746578742f68746d6c3b20636861727365743d5554462d3822202f3e0d0a0d0a09093c7469746c653e4c6f67696e203a3a2044616d6e2056756c6e657261626c6520576562204170706c69636174696f6e202844565741292076312e3130202a446576656c6f706d656e742a3c2f7469746c653e0d0a0d0a09093c6c696e6b2072656c3d227374796c6573686565742220747970653d22746578742f6373732220687265663d22647677612f6373732f6c6f67696e2e63737322202f3e0d0a0d0a093c2f686561643e0d0a0d0a093c626f64793e0d0a0d0a093c6469762069643d2277726170706572223e0d0a0d0a093c6469762069643d22686561646572223e0d0a0d0a093c6272202f3e0d0a0d0a093c703e3c696d67207372633d22647677612f696d616765732f6c6f67696e5f6c6f676f2e706e6722202f3e3c2f703e0d0a0d0a093c6272202f3e0d0a0d0a093c2f6469763e203c212d2d3c6469762069643d22686561646572223e2d2d3e0d0a0d0a093c6469762069643d22636f6e74656e74223e0d0a0d0a093c666f726d20616374696f6e3d226c6f67696e2e70687022206d6574686f643d22706f7374223e0d0a0d0a093c6669656c647365743e0d0a0d0a0909093c6c6162656c20666f723d2275736572223e557365726e616d653c2f6c6162656c3e203c696e70757420747970653d22746578742220636c6173733d226c6f67696e496e707574222073697a653d22323022206e616d653d22757365726e616d65223e3c6272202f3e0d0a0d0a0d0a0909093c6c6162656c20666f723d2270617373223e50617373776f72643c2f6c6162656c3e203c696e70757420747970653d2270617373776f72642220636c6173733d226c6f67696e496e70757422204155544f434f4d504c4554453d226f6666222073697a653d22323022206e616d653d2270617373776f7264223e3c6272202f3e0d0a0d0a0909093c6272202f3e0d0a0d0a0909093c7020636c6173733d227375626d6974223e3c696e70757420747970653d227375626d6974222076616c75653d224c6f67696e22206e616d653d224c6f67696e223e3c2f703e0d0a0d0a093c2f6669656c647365743e0d0a0d0a093c696e70757420747970653d2768696464656e27206e616d653d27757365725f746f6b656e272076616c75653d27303661643039613363373730383366313463396532626539663832393131626127202f",
+      "3e0d0a0d0a093c2f666f726d3e0d0a0d0a093c6272202f3e0d0a0d0a090d0a0d0a093c6272202f3e0d0a093c6272202f3e0d0a093c6272202f3e0d0a093c6272202f3e0d0a093c6272202f3e0d0a093c6272202f3e0d0a093c6272202f3e0d0a093c6272202f3e0d0a0d0a093c212d2d203c696d67207372633d22647677612f696d616765732f52616e646f6d53746f726d2e706e6722202f3e202d2d3e0d0a093c2f646976203e203c212d2d3c6469762069643d22636f6e74656e74223e2d2d3e0d0a0d0a093c6469762069643d22666f6f746572223e0d0a0d0a093c703e3c6120687265663d2268747470733a2f2f6769746875622e636f6d2f646967696e696e6a612f445657412f22207461726765743d225f626c616e6b223e44616d6e2056756c6e657261626c6520576562204170706c69636174696f6e202844565741293c2f613e3c2f703e0d0a0d0a093c2f6469763e203c212d2d3c6469762069643d22666f6f746572223e202d2d3e0d0a0d0a093c2f6469763e203c212d2d3c6469762069643d2277726170706572223e202d2d3e0d0a0d0a093c2f626f64793e0d0a0d0a3c2f68746d6c3e",
+      "485454502f312e3120323030204f4b0d0a446174653a205361742c2030342044656320323032312030303a34353a333520474d540d0a5365727665723a204170616368652f322e342e33382028526173706269616e290d0a5365742d436f6f6b69653a205048505345535349443d646436677435766d6b346d69676a3935756374366d7039386b653b20706174683d2f0d0a457870697265733a205475652c203233204a756e20323030392031323a30303a303020474d540d0a43616368652d436f6e74726f6c3a206e6f2d63616368652c206d7573742d726576616c69646174650d0a507261676d613a206e6f2d63616368650d0a5365742d436f6f6b69653a205048505345535349443d646436677435766d6b346d69676a3935756374366d7039386b653b20706174683d2f3b20487474704f6e6c790d0a5365742d436f6f6b69653a2073656375726974793d696d706f737369626c653b20487474704f6e6c790d0a566172793a204163636570742d456e636f64696e670d0a436f6e74656e742d4c656e6774683a20313431350d0a436f6e6e656374696f6e3a20636c6f73650d0a436f6e74656e742d547970653a20746578742f68746d6c3b636861727365743d7574662d380d0a0d0a3c21444f43545950452068746d6c3e0d0a0d0a3c68746d6c206c616e673d22656e2d4742223e0d0a0d0a093c686561643e0d0a0d0a09093c6d65746120687474702d65717569763d22436f6e74656e742d547970652220636f6e74656e743d22746578742f68746d6c3b20636861727365743d5554462d3822202f3e0d0a0d0a09093c7469746c653e4c6f67696e203a3a2044616d6e2056756c6e657261626c6520576562204170706c69636174696f6e202844565741292076312e3130202a446576656c6f706d656e742a3c2f7469746c653e0d0a0d0a09093c6c696e6b2072656c3d227374796c6573686565742220747970653d22746578742f6373732220687265663d22647677612f6373732f6c6f67696e2e63737322202f3e0d0a0d0a093c2f686561643e0d0a0d0a093c626f64793e0d0a0d0a093c6469762069643d2277726170706572223e0d0a0d0a093c6469762069643d22686561646572223e0d0a0d0a093c6272202f3e0d0a0d0a093c703e3c696d67207372633d22647677612f696d616765732f6c6f67696e5f6c6f676f2e706e6722202f3e3c2f703e0d0a0d0a093c6272202f3e0d0a0d0a093c2f6469763e203c212d2d3c6469762069643d22686561646572223e2d2d3e0d0a0d0a093c6469762069643d22636f6e74656e74223e0d0a0d0a093c666f726d20616374696f6e3d226c6f67696e2e70687022206d6574686f643d22706f7374223e0d0a0d0a093c6669656c647365743e0d0a0d0a0909093c6c6162656c20666f723d2275736572223e557365726e616d653c2f6c6162656c3e203c696e70757420747970653d22746578742220636c6173733d226c6f67696e496e707574222073697a653d22323022206e616d653d22757365726e616d65223e3c6272202f3e0d0a0d0a0d0a0909093c6c6162656c20666f723d2270617373223e50617373776f72643c2f6c6162656c3e203c696e70757420747970653d2270617373776f72642220636c6173733d226c6f67696e496e70757422204155544f434f4d504c4554453d226f6666222073697a653d22323022206e616d653d2270617373776f7264223e3c6272202f3e0d0a0d0a0909093c6272202f3e0d0a0d0a0909093c7020636c6173733d227375626d6974223e3c696e70757420747970653d227375626d6974222076616c75653d224c6f67696e22206e616d653d224c6f67696e223e3c2f703e0d0a0d0a093c2f6669656c647365743e0d0a0d0a093c696e70757420747970653d2768696464656e27206e616d653d27757365725f746f6b656e272076616c75653d27396161393232303763646164626437383264633661323234633839353137616427202f",
+      "504f5354202f445657412f6c6f67696e2e70687020485454502f312e300d0a486f73743a203139322e3136382e302e3132380d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284879647261290d0a436f6e74656e742d4c656e6774683a2033370d0a436f6e74656e742d547970653a206170706c69636174696f6e2f782d7777772d666f726d2d75726c656e636f6465640d0a436f6f6b69653a205048505345535349443d627162717231383739306d63716f32676e3566656c313074336f3b2073656375726974793d696d706f737369626c650d0a0d0a757365726e616d653d61646d696e2670617373776f72643d30264c6f67696e3d4c6f67696e",
+      "504f5354202f445657412f6c6f67696e2e70687020485454502f312e300d0a486f73743a203139322e3136382e302e3132380d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284879647261290d0a436f6e74656e742d4c656e6774683a2033380d0a436f6e74656e742d547970653a206170706c69636174696f6e2f782d7777772d666f726d2d75726c656e636f6465640d0a436f6f6b69653a205048505345535349443d646436677435766d6b346d69676a3935756374366d7039386b653b2073656375726974793d696d706f737369626c650d0a0d0a757365726e616d653d61646d696e2670617373776f72643d3030264c6f67696e3d4c6f67696e",
+      "485454502f312e312033303220466f756e640d0a446174653a205361742c2030342044656320323032312030303a34353a333620474d540d0a5365727665723a204170616368652f322e342e33382028526173706269616e290d0a457870697265733a205468752c203139204e6f7620313938312030383a35323a303020474d540d0a43616368652d436f6e74726f6c3a206e6f2d73746f72652c206e6f2d63616368652c206d7573742d726576616c69646174650d0a507261676d613a206e6f2d63616368650d0a4c6f636174696f6e3a206c6f67696e2e7068700d0a436f6e74656e742d4c656e6774683a20300d0a436f6e6e656374696f6e3a20636c6f73650d0a436f6e74656e742d547970653a20746578742f68746d6c3b20636861727365743d5554462d380d0a0d0a",
+      "474554202f445657412f6c6f67696e2e70687020485454502f312e300d0a486f73743a203139322e3136382e302e3132380d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284879647261290d0a436f6e74656e742d4c656e6774683a20300d0a436f6e74656e742d547970653a206170706c69636174696f6e2f782d7777772d666f726d2d75726c656e636f6465640d0a436f6f6b69653a205048505345535349443d627162717231383739306d63716f32676e3566656c313074336f3b2073656375726974793d696d706f737369626c650d0a0d0a",
+      "474554202f445657412f6c6f67696e2e70687020485454502f312e300d0a486f73743a203139322e3136382e302e3132380d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284879647261290d0a436f6e74656e742d4c656e6774683a20300d0a436f6e74656e742d547970653a206170706c69636174696f6e2f782d7777772d666f726d2d75726c656e636f6465640d0a436f6f6b69653a205048505345535349443d646436677435766d6b346d69676a3935756374366d7039386b653b2073656375726974793d696d706f737369626c650d0a0d0a"
+    ]
+  },
+  "arp.dst.proto_ipv4": {
+    "count": 6,
+    "unique_columns": [
+      "0",
+      "192.168.0.1",
+      "192.168.0.128",
+      "192.168.0.152",
+      0,
+      "192.168.0.170"
+    ]
+  },
+  "http.request.full_uri": {
+    "count": 3840,
+    "unique_columns": [
+      "0",
+      "http://192.168.0.128/DVWA/login.php",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27.%22%29%28%2C.%28.%28&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27FHBrxG%3C%27%22%3EBjxRQk&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%29%20AND%209522%3D9017%20AND%20%285824%3D5824&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%20AND%205107%3D2126&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%20AND%201053%3D6910--%20kVQK&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27%29%20AND%207764%3D2930%20AND%20%28%27EUel%27%3D%27EUel&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27%20AND%205186%3D5150%20AND%20%27omoG%27%3D%27omoG&Submit=Submitid=53"
+    ]
+  },
+  "tcp.connection.synack": {
+    "count": 2,
+    "unique_columns": [
+      0.0,
+      1.0
+    ]
+  },
+  "http.file_data": {
+    "count": 45948,
+    "unique_columns": [
+      "0",
+      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='06ad09a3c77083f14c9e2be9f82911ba' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>",
+      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='9aa92207cdadbd782dc6a224c89517ad' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>",
+      "username=admin&password=0&Login=Login",
+      "username=admin&password=00&Login=Login",
+      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='122baa2c154b29d77d9cee80f00dac3a' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<div class=\"message\">CSRF token is incorrect</div>\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>",
+      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='f9eb28cbec36b9cb5d9d965c475b056e' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<div class=\"message\">CSRF token is incorrect</div>\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>",
+      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='6e8f3792e2823f7ca660a86ba652d9b8' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>",
+      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='1a567f4a5293874fd53ec1205f63fa18' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>",
+      "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='46e4eccda1eeac8294d50e892b1a4dfe' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<div class=\"message\">CSRF token is incorrect</div>\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>"
+    ]
+  },
+  "tcp.seq": {
+    "count": 387,
     "unique_columns": [
       0.0,
       1.0,
-      2.0
+      1449.0,
+      1878.0,
+      87.0,
+      1879.0,
+      303.0,
+      304.0,
+      261.0,
+      262.0
+    ]
+  },
+  "http.referer": {
+    "count": 3,
+    "unique_columns": [
+      0.0,
+      "0",
+      "127.0.0.1"
+    ]
+  },
+  "frame.time": {
+    "count": 1158100,
+    "unique_columns": [
+      " 2021 01:45:35.961572000 ",
+      " 2021 01:45:35.961638000 ",
+      " 2021 01:45:35.964143000 ",
+      " 2021 01:45:35.964199000 ",
+      " 2021 01:45:35.974758000 ",
+      " 2021 01:45:35.974841000 ",
+      " 2021 01:45:35.976362000 ",
+      " 2021 01:45:35.976424000 ",
+      " 2021 01:45:35.976770000 ",
+      " 2021 01:45:35.976795000 "
+    ]
+  },
+  "tcp.dstport": {
+    "count": 14122,
+    "unique_columns": [
+      80.0,
+      37670.0,
+      37672.0,
+      37674.0,
+      37676.0,
+      37678.0,
+      37680.0,
+      37684.0,
+      37686.0,
+      37688.0
+    ]
+  },
+  "tcp.connection.syn": {
+    "count": 2,
+    "unique_columns": [
+      1.0,
+      0.0
+    ]
+  },
+  "tcp.connection.rst": {
+    "count": 2,
+    "unique_columns": [
+      0.0,
+      1.0
+    ]
+  },
+  "ip.src_host": {
+    "count": 6,
+    "unique_columns": [
+      "192.168.0.170",
+      "192.168.0.128",
+      "0",
+      "0.0.0.0",
+      "172.217.19.42",
+      "104.16.87.20"
+    ]
+  },
+  "tcp.ack_raw": {
+    "count": 564655,
+    "unique_columns": [
+      0.0,
+      1535384924.0,
+      3550768328.0,
+      2788267429.0,
+      1535385010.0,
+      317324030.0,
+      3550768414.0,
+      2788269306.0,
+      317325478.0,
+      317325907.0
+    ]
+  },
+  "tcp.flags": {
+    "count": 9,
+    "unique_columns": [
+      "0x00000002",
+      "0x00000012",
+      "0x00000018",
+      "0x00000010",
+      "0x00000011",
+      "0x00000004",
+      "0",
+      "0x00000019",
+      "0x00000014"
+    ]
+  },
+  "arp.src.proto_ipv4": {
+    "count": 7,
+    "unique_columns": [
+      "0",
+      "192.168.0.128",
+      "192.168.0.1",
+      "192.168.0.101",
+      "192.168.0.152",
+      0,
+      "192.168.0.170"
+    ]
+  },
+  "tcp.flags.ack": {
+    "count": 2,
+    "unique_columns": [
+      0.0,
+      1.0
+    ]
+  },
+  "arp.hw.size": {
+    "count": 2,
+    "unique_columns": [
+      0.0,
+      6.0
     ]
   }
 }
