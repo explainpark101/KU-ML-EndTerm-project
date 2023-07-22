@@ -1,1 +1,1 @@
-docker run --gpus all -it --mount src="C:/projects/machine-learning",target=/mnt,type=bind tensorflow/tensorflow:latest-gpu-jupyter
+docker run --gpus all --name KU-ML-repo --mount src="C:/projects/machine-learning",target=/mnt,type=bind tensorflow/tensorflow:latest-gpu-jupyter
