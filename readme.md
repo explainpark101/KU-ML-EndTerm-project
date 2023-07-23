@@ -4,8 +4,8 @@
   
 ## Members
 - 박재형, 고려대학교 스마트도시학부, 2022272001
-- 안응규, 고려대학교 인공지능사이버보안학과, 
-- Lorenzo, 
+<!-- - 안응규, 고려대학교 인공지능사이버보안학과, 
+- Lorenzo,  -->
 
 ## Objective
 - Introducing multi-class Classification to Web Attack logs.
