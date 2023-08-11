@@ -1,32 +1,78 @@
 {
-  "tcp.len": {
-    "count": 223,
+  "Attack_type": {
+    "count": 4,
     "unique_columns": [
-      0.0,
-      86.0,
-      1448.0,
-      429.0,
-      260.0,
-      261.0,
-      302.0,
-      221.0,
-      310.0,
-      580.0
+      "Password",
+      "SQL_injection",
+      "Uploading",
+      "XSS"
     ]
   },
-  "tcp.checksum": {
-    "count": 65537,
+  "http.content_length": {
+    "count": 7,
     "unique_columns": [
-      "0x0000211f",
-      "0x0000d4ca",
-      "0x0000598d",
-      "0x00003b25",
-      "0x0000016d",
-      "0x0000ffb2",
-      "0x000067c9",
-      "0x00006610",
-      "0x00000026",
-      "0x0000ffb0"
+      0.0,
+      1415.0,
+      37.0,
+      38.0,
+      1465.0,
+      277.0,
+      303.0
+    ]
+  },
+  "tcp.flags.ack": {
+    "count": 2,
+    "unique_columns": [
+      0.0,
+      1.0
+    ]
+  },
+  "tcp.dstport": {
+    "count": 14122,
+    "unique_columns": [
+      80.0,
+      37670.0,
+      37672.0,
+      37674.0,
+      37676.0,
+      37678.0,
+      37680.0,
+      37684.0,
+      37686.0,
+      37688.0
+    ]
+  },
+  "ip.src_host": {
+    "count": 6,
+    "unique_columns": [
+      "192.168.0.170",
+      "192.168.0.128",
+      "0",
+      "0.0.0.0",
+      "172.217.19.42",
+      "104.16.87.20"
+    ]
+  },
+  "tcp.srcport": {
+    "count": 14121,
+    "unique_columns": [
+      37670.0,
+      80.0,
+      37672.0,
+      37674.0,
+      37676.0,
+      37678.0,
+      37680.0,
+      37684.0,
+      37686.0,
+      37688.0
+    ]
+  },
+  "arp.hw.size": {
+    "count": 2,
+    "unique_columns": [
+      0.0,
+      6.0
     ]
   },
   "tcp.ack": {
@@ -44,14 +90,97 @@
       303.0
     ]
   },
-  "http.response": {
+  "tcp.seq": {
+    "count": 387,
+    "unique_columns": [
+      0.0,
+      1.0,
+      1449.0,
+      1878.0,
+      87.0,
+      1879.0,
+      303.0,
+      304.0,
+      261.0,
+      262.0
+    ]
+  },
+  "tcp.len": {
+    "count": 223,
+    "unique_columns": [
+      0.0,
+      86.0,
+      1448.0,
+      429.0,
+      260.0,
+      261.0,
+      302.0,
+      221.0,
+      310.0,
+      580.0
+    ]
+  },
+  "tcp.connection.synack": {
     "count": 2,
     "unique_columns": [
       0.0,
       1.0
     ]
   },
-  "tcp.connection.fin": {
+  "arp.dst.proto_ipv4": {
+    "count": 6,
+    "unique_columns": [
+      "0",
+      "192.168.0.1",
+      "192.168.0.128",
+      "192.168.0.152",
+      0,
+      "192.168.0.170"
+    ]
+  },
+  "arp.src.proto_ipv4": {
+    "count": 7,
+    "unique_columns": [
+      "0",
+      "192.168.0.128",
+      "192.168.0.1",
+      "192.168.0.101",
+      "192.168.0.152",
+      0,
+      "192.168.0.170"
+    ]
+  },
+  "http.request.full_uri": {
+    "count": 3840,
+    "unique_columns": [
+      "0",
+      "http://192.168.0.128/DVWA/login.php",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27.%22%29%28%2C.%28.%28&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27FHBrxG%3C%27%22%3EBjxRQk&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%29%20AND%209522%3D9017%20AND%20%285824%3D5824&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%20AND%205107%3D2126&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%20AND%201053%3D6910--%20kVQK&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27%29%20AND%207764%3D2930%20AND%20%28%27EUel%27%3D%27EUel&Submit=Submitid=53",
+      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27%20AND%205186%3D5150%20AND%20%27omoG%27%3D%27omoG&Submit=Submitid=53"
+    ]
+  },
+  "frame.time": {
+    "count": 1158100,
+    "unique_columns": [
+      " 2021 01:45:35.961572000 ",
+      " 2021 01:45:35.961638000 ",
+      " 2021 01:45:35.964143000 ",
+      " 2021 01:45:35.964199000 ",
+      " 2021 01:45:35.974758000 ",
+      " 2021 01:45:35.974841000 ",
+      " 2021 01:45:35.976362000 ",
+      " 2021 01:45:35.976424000 ",
+      " 2021 01:45:35.976770000 ",
+      " 2021 01:45:35.976795000 "
+    ]
+  },
+  "http.response": {
     "count": 2,
     "unique_columns": [
       0.0,
@@ -69,6 +198,13 @@
       "224.0.0.251",
       "172.217.19.42",
       "104.16.87.20"
+    ]
+  },
+  "tcp.connection.syn": {
+    "count": 2,
+    "unique_columns": [
+      1.0,
+      0.0
     ]
   },
   "http.request.version": {
@@ -94,25 +230,11 @@
       "0101080ad3a239419a8a02a2"
     ]
   },
-  "http.content_length": {
-    "count": 7,
+  "tcp.connection.fin": {
+    "count": 2,
     "unique_columns": [
       0.0,
-      1415.0,
-      37.0,
-      38.0,
-      1465.0,
-      277.0,
-      303.0
-    ]
-  },
-  "Attack_type": {
-    "count": 4,
-    "unique_columns": [
-      "Password",
-      "SQL_injection",
-      "Uploading",
-      "XSS"
+      1.0
     ]
   },
   "http.request.uri.query": {
@@ -130,36 +252,34 @@
       "id=2%27%20AND%205186%3D5150%20AND%20%27omoG%27%3D%27omoG&Submit=Submitid=53"
     ]
   },
+  "tcp.flags": {
+    "count": 9,
+    "unique_columns": [
+      "0x00000002",
+      "0x00000012",
+      "0x00000018",
+      "0x00000010",
+      "0x00000011",
+      "0x00000004",
+      "0",
+      "0x00000019",
+      "0x00000014"
+    ]
+  },
+  "http.referer": {
+    "count": 3,
+    "unique_columns": [
+      0.0,
+      "0",
+      "127.0.0.1"
+    ]
+  },
   "arp.opcode": {
     "count": 3,
     "unique_columns": [
       0.0,
       1.0,
       2.0
-    ]
-  },
-  "tcp.srcport": {
-    "count": 14121,
-    "unique_columns": [
-      37670.0,
-      80.0,
-      37672.0,
-      37674.0,
-      37676.0,
-      37678.0,
-      37680.0,
-      37684.0,
-      37686.0,
-      37688.0
-    ]
-  },
-  "http.request.method": {
-    "count": 4,
-    "unique_columns": [
-      "0",
-      "GET",
-      "POST",
-      "TRACE"
     ]
   },
   "tcp.payload": {
@@ -177,37 +297,26 @@
       "474554202f445657412f6c6f67696e2e70687020485454502f312e300d0a486f73743a203139322e3136382e302e3132380d0a557365722d4167656e743a204d6f7a696c6c612f352e3020284879647261290d0a436f6e74656e742d4c656e6774683a20300d0a436f6e74656e742d547970653a206170706c69636174696f6e2f782d7777772d666f726d2d75726c656e636f6465640d0a436f6f6b69653a205048505345535349443d646436677435766d6b346d69676a3935756374366d7039386b653b2073656375726974793d696d706f737369626c650d0a0d0a"
     ]
   },
-  "arp.dst.proto_ipv4": {
-    "count": 6,
-    "unique_columns": [
-      "0",
-      "192.168.0.1",
-      "192.168.0.128",
-      "192.168.0.152",
-      0,
-      "192.168.0.170"
-    ]
-  },
-  "http.request.full_uri": {
-    "count": 3840,
-    "unique_columns": [
-      "0",
-      "http://192.168.0.128/DVWA/login.php",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27.%22%29%28%2C.%28.%28&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27FHBrxG%3C%27%22%3EBjxRQk&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%29%20AND%209522%3D9017%20AND%20%285824%3D5824&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%20AND%205107%3D2126&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%20AND%201053%3D6910--%20kVQK&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27%29%20AND%207764%3D2930%20AND%20%28%27EUel%27%3D%27EUel&Submit=Submitid=53",
-      "http://192.168.0.128/DVWA/vulnerabilities/sqli_blind/?id=2%27%20AND%205186%3D5150%20AND%20%27omoG%27%3D%27omoG&Submit=Submitid=53"
-    ]
-  },
-  "tcp.connection.synack": {
+  "tcp.connection.rst": {
     "count": 2,
     "unique_columns": [
       0.0,
       1.0
+    ]
+  },
+  "tcp.checksum": {
+    "count": 65537,
+    "unique_columns": [
+      "0x0000211f",
+      "0x0000d4ca",
+      "0x0000598d",
+      "0x00003b25",
+      "0x0000016d",
+      "0x0000ffb2",
+      "0x000067c9",
+      "0x00006610",
+      "0x00000026",
+      "0x0000ffb0"
     ]
   },
   "http.file_data": {
@@ -225,84 +334,6 @@
       "<!DOCTYPE html>\\r\\n\\r\\n<html lang=\"en-GB\">\\r\\n\\r\\n\\t<head>\\r\\n\\r\\n\\t\\t<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\" />\\r\\n\\r\\n\\t\\t<title>Login :: Damn Vulnerable Web Application (DVWA) v1.10 *Development*</title>\\r\\n\\r\\n\\t\\t<link rel=\"stylesheet\" type=\"text/css\" href=\"dvwa/css/login.css\" />\\r\\n\\r\\n\\t</head>\\r\\n\\r\\n\\t<body>\\r\\n\\r\\n\\t<div id=\"wrapper\">\\r\\n\\r\\n\\t<div id=\"header\">\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<p><img src=\"dvwa/images/login_logo.png\" /></p>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t</div> <!--<div id=\"header\">-->\\r\\n\\r\\n\\t<div id=\"content\">\\r\\n\\r\\n\\t<form action=\"login.php\" method=\"post\">\\r\\n\\r\\n\\t<fieldset>\\r\\n\\r\\n\\t\\t\\t<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />\\r\\n\\r\\n\\r\\n\\t\\t\\t<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />\\r\\n\\r\\n\\t\\t\\t<br />\\r\\n\\r\\n\\t\\t\\t<p class=\"submit\"><input type=\"submit\" value=\"Login\" name=\"Login\"></p>\\r\\n\\r\\n\\t</fieldset>\\r\\n\\r\\n\\t<input type='hidden' name='user_token' value='46e4eccda1eeac8294d50e892b1a4dfe' />\\r\\n\\r\\n\\t</form>\\r\\n\\r\\n\\t<br />\\r\\n\\r\\n\\t<div class=\"message\">CSRF token is incorrect</div>\\r\\n\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\t<br />\\r\\n\\r\\n\\t<!-- <img src=\"dvwa/images/RandomStorm.png\" /> -->\\r\\n\\t</div > <!--<div id=\"content\">-->\\r\\n\\r\\n\\t<div id=\"footer\">\\r\\n\\r\\n\\t<p><a href=\"https://github.com/digininja/DVWA/\" target=\"_blank\">Damn Vulnerable Web Application (DVWA)</a></p>\\r\\n\\r\\n\\t</div> <!--<div id=\"footer\"> -->\\r\\n\\r\\n\\t</div> <!--<div id=\"wrapper\"> -->\\r\\n\\r\\n\\t</body>\\r\\n\\r\\n</html>"
     ]
   },
-  "tcp.seq": {
-    "count": 387,
-    "unique_columns": [
-      0.0,
-      1.0,
-      1449.0,
-      1878.0,
-      87.0,
-      1879.0,
-      303.0,
-      304.0,
-      261.0,
-      262.0
-    ]
-  },
-  "http.referer": {
-    "count": 3,
-    "unique_columns": [
-      0.0,
-      "0",
-      "127.0.0.1"
-    ]
-  },
-  "frame.time": {
-    "count": 1158100,
-    "unique_columns": [
-      " 2021 01:45:35.961572000 ",
-      " 2021 01:45:35.961638000 ",
-      " 2021 01:45:35.964143000 ",
-      " 2021 01:45:35.964199000 ",
-      " 2021 01:45:35.974758000 ",
-      " 2021 01:45:35.974841000 ",
-      " 2021 01:45:35.976362000 ",
-      " 2021 01:45:35.976424000 ",
-      " 2021 01:45:35.976770000 ",
-      " 2021 01:45:35.976795000 "
-    ]
-  },
-  "tcp.dstport": {
-    "count": 14122,
-    "unique_columns": [
-      80.0,
-      37670.0,
-      37672.0,
-      37674.0,
-      37676.0,
-      37678.0,
-      37680.0,
-      37684.0,
-      37686.0,
-      37688.0
-    ]
-  },
-  "tcp.connection.syn": {
-    "count": 2,
-    "unique_columns": [
-      1.0,
-      0.0
-    ]
-  },
-  "tcp.connection.rst": {
-    "count": 2,
-    "unique_columns": [
-      0.0,
-      1.0
-    ]
-  },
-  "ip.src_host": {
-    "count": 6,
-    "unique_columns": [
-      "192.168.0.170",
-      "192.168.0.128",
-      "0",
-      "0.0.0.0",
-      "172.217.19.42",
-      "104.16.87.20"
-    ]
-  },
   "tcp.ack_raw": {
     "count": 564655,
     "unique_columns": [
@@ -318,44 +349,13 @@
       317325907.0
     ]
   },
-  "tcp.flags": {
-    "count": 9,
-    "unique_columns": [
-      "0x00000002",
-      "0x00000012",
-      "0x00000018",
-      "0x00000010",
-      "0x00000011",
-      "0x00000004",
-      "0",
-      "0x00000019",
-      "0x00000014"
-    ]
-  },
-  "arp.src.proto_ipv4": {
-    "count": 7,
+  "http.request.method": {
+    "count": 4,
     "unique_columns": [
       "0",
-      "192.168.0.128",
-      "192.168.0.1",
-      "192.168.0.101",
-      "192.168.0.152",
-      0,
-      "192.168.0.170"
-    ]
-  },
-  "tcp.flags.ack": {
-    "count": 2,
-    "unique_columns": [
-      0.0,
-      1.0
-    ]
-  },
-  "arp.hw.size": {
-    "count": 2,
-    "unique_columns": [
-      0.0,
-      6.0
+      "GET",
+      "POST",
+      "TRACE"
     ]
   }
 }

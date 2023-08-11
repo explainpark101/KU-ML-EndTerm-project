@@ -1,0 +1,5 @@
+,PRED_Password,PRED_SQL_injection,PRED_Uploading,PRED_XSS
+TRUE_Password,0,21267,0,0
+TRUE_SQL_injection,0,1270,0,0
+TRUE_Uploading,0,616,0,0
+TRUE_XSS,4053,763,2,0

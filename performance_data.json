@@ -2,1310 +2,3960 @@
     "file_data_LSTM": {
         "0": {
             "accuracy": {
-                "Password": 0.5115815691158156,
-                "SQL_injection": 0.9172120111469455,
-                "Uploading": 0.9623545285882948,
-                "XSS": 0.8469543374899076
+                "Password": 0.5115904867693011,
+                "SQL_injection": 0.9168283371925653,
+                "Uploading": 0.9605772141679841,
+                "XSS": 0.8481695799478308
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.0687768659632669
+                "XSS": 0.06279620853080568
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.12092064582617656
+                "XSS": 0.11157894736842104
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4428,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 4428
+                },
+                "TP": {
+                    "PW_Injection": 21310,
+                    "SQLi": 1329,
+                    "File_Inclusion": 586,
+                    "XSS": 318
+                },
+                "TN": {
+                    "PW_Injection": 2233,
+                    "SQLi": 26642,
+                    "File_Inclusion": 27385,
+                    "XSS": 23225
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8416931822244468,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.8416931822244468
+                },
+                "precision": {
+                    "PW_Injection": 0.8279586603465693,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.06700379266750948
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9058833531712294,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.1255924170616114
+                }
             }
         },
         "1": {
             "accuracy": {
-                "Password": 0.5118960887575196,
-                "SQL_injection": 0.9155167030908523,
-                "Uploading": 0.9594399489641742,
-                "XSS": 0.8465450194436135
+                "Password": 0.5117497271735176,
+                "SQL_injection": 0.9200780340454989,
+                "Uploading": 0.95868406049834,
+                "XSS": 0.8451653299144279
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.06413255360623782
+                "XSS": 0.07221259387637204
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.11368348306841741
+                "XSS": 0.12619888944977284
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4443,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 4443
+                },
+                "TP": {
+                    "PW_Injection": 21267,
+                    "SQLi": 1270,
+                    "File_Inclusion": 616,
+                    "XSS": 375
+                },
+                "TN": {
+                    "PW_Injection": 2261,
+                    "SQLi": 26701,
+                    "File_Inclusion": 27355,
+                    "XSS": 23153
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.841156912516535,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.841156912516535
+                },
+                "precision": {
+                    "PW_Injection": 0.8271878646441073,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.07783312577833126
+                },
+                "f1_score": {
+                    "PW_Injection": 0.905421802158503,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.1444251877527441
+                }
             }
         },
         "2": {
             "accuracy": {
-                "Password": 0.5115943832576276,
-                "SQL_injection": 0.9183660663863964,
-                "Uploading": 0.9605139243912283,
-                "XSS": 0.8481281820904463
+                "Password": 0.5114285418113591,
+                "SQL_injection": 0.9180908777321334,
+                "Uploading": 0.961909256387784,
+                "XSS": 0.848140712552063
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.06862551764937883
+                "XSS": 0.06590370955011839
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.12068666551066412
+                "XSS": 0.11645746164574616
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4400,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 4400
+                },
+                "TP": {
+                    "PW_Injection": 21366,
+                    "SQLi": 1306,
+                    "File_Inclusion": 565,
+                    "XSS": 334
+                },
+                "TN": {
+                    "PW_Injection": 2205,
+                    "SQLi": 26665,
+                    "File_Inclusion": 27406,
+                    "XSS": 23237
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8426942190125487,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.8426942190125487
+                },
+                "precision": {
+                    "PW_Injection": 0.8292323216642087,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.07055344317701732
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9066451667656794,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.13180741910023677
+                }
             }
         },
         "3": {
             "accuracy": {
-                "Password": 0.5114754778424235,
-                "SQL_injection": 0.9186415141718196,
-                "Uploading": 0.9605772141679841,
-                "XSS": 0.848
+                "Password": 0.5112518528500202,
+                "SQL_injection": 0.9188620592206487,
+                "Uploading": 0.9628641841936464,
+                "XSS": 0.8471278474571198
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.06524738813325448
+                "XSS": 0.06442138241629136
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.11543156059285091
+                "XSS": 0.11413703382480485
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4449,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 4449
+                },
+                "TP": {
+                    "PW_Injection": 21351,
+                    "SQLi": 1292,
+                    "File_Inclusion": 550,
+                    "XSS": 329
+                },
+                "TN": {
+                    "PW_Injection": 2171,
+                    "SQLi": 26679,
+                    "File_Inclusion": 27421,
+                    "XSS": 23193
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8409424046333702,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.8409424046333702
+                },
+                "precision": {
+                    "PW_Injection": 0.8275581395348838,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.06885726245290917
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9056435706559778,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.12884276483258275
+                }
             }
         },
         "4": {
             "accuracy": {
-                "Password": 0.5115986744372072,
-                "SQL_injection": 0.9166093212386612,
-                "Uploading": 0.9617186183656277,
-                "XSS": 0.8466600855544587
+                "Password": 0.5114316228238441,
+                "SQL_injection": 0.9186966348568558,
+                "Uploading": 0.9630555180332298,
+                "XSS": 0.8464732769694978
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.0647678501755755
+                "XSS": 0.07063631056625802
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.1146804835924007
+                "XSS": 0.12378516624040921
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4413,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 4413
+                },
+                "TP": {
+                    "PW_Injection": 21353,
+                    "SQLi": 1295,
+                    "File_Inclusion": 547,
+                    "XSS": 363
+                },
+                "TN": {
+                    "PW_Injection": 2205,
+                    "SQLi": 26676,
+                    "File_Inclusion": 27424,
+                    "XSS": 23195
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8422294519323585,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.8422294519323585
+                },
+                "precision": {
+                    "PW_Injection": 0.8287277807963983,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.07600502512562814
+                },
+                "f1_score": {
+                    "PW_Injection": 0.906343513232454,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.14127262113251604
+                }
             }
         },
         "5": {
             "accuracy": {
-                "Password": 0.5114772786154723,
-                "SQL_injection": 0.9196905854977674,
-                "Uploading": 0.9608305010599993,
-                "XSS": 0.8478345455089641
+                "Password": 0.5068665068767938,
+                "SQL_injection": 0.9164998749061797,
+                "Uploading": 0.9803378662554325,
+                "XSS": 0.8542328365502077
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
-                "Uploading": 0.5,
-                "XSS": 0.07002360346184107
+                "Uploading": 0.0,
+                "XSS": 0.0
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.12284334023464458
+                "XSS": 0.0
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 5334,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 561,
+                    "XSS": 4773
+                },
+                "TP": {
+                    "PW_Injection": 21302,
+                    "SQLi": 1335,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "TN": {
+                    "PW_Injection": 1335,
+                    "SQLi": 26636,
+                    "File_Inclusion": 27410,
+                    "XSS": 23198
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8093024918665761,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.9799435129241,
+                    "XSS": 0.8293589789424761
+                },
+                "precision": {
+                    "PW_Injection": 0.7997447064123743,
+                    "SQLi": 1.0,
+                    "File_Inclusion": NaN,
+                    "XSS": NaN
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.0
+                },
+                "f1_score": {
+                    "PW_Injection": 0.8887312779006218,
+                    "SQLi": 1.0,
+                    "File_Inclusion": NaN,
+                    "XSS": NaN
+                }
             }
         },
         "6": {
             "accuracy": {
-                "Password": 0.5111534755535294,
-                "SQL_injection": 0.9215772870662461,
-                "Uploading": 0.9623545285882948,
-                "XSS": 0.8459424748364744
+                "Password": 0.5116846443736179,
+                "SQL_injection": 0.9160625,
+                "Uploading": 0.9612108151789622,
+                "XSS": 0.8481316112792544
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.06824350523458705
+                "XSS": 0.06550907655880031
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.12009553053565336
+                "XSS": 0.11584089323098394
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4404,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 4404
+                },
+                "TP": {
+                    "PW_Injection": 21316,
+                    "SQLi": 1343,
+                    "File_Inclusion": 576,
+                    "XSS": 332
+                },
+                "TN": {
+                    "PW_Injection": 2251,
+                    "SQLi": 26628,
+                    "File_Inclusion": 27395,
+                    "XSS": 23235
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8425512137571056,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.8425512137571056
+                },
+                "precision": {
+                    "PW_Injection": 0.8287713841368585,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.07010135135135136
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9063695892507865,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.13101815311760062
+                }
             }
         },
         "7": {
             "accuracy": {
-                "Password": 0.5115496817997778,
-                "SQL_injection": 0.9175412763557755,
-                "Uploading": 0.9608305010599993,
-                "XSS": 0.847372361131906
+                "Password": 0.5116221048692253,
+                "SQL_injection": 0.916390469639172,
+                "Uploading": 0.9608938547486033,
+                "XSS": 0.8465958401915308
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.06415538552089464
+                "XSS": 0.06203667577058135
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.11371935315597288
+                "XSS": 0.11037834085387017
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4490,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 4490
+                },
+                "TP": {
+                    "PW_Injection": 21245,
+                    "SQLi": 1337,
+                    "File_Inclusion": 581,
+                    "XSS": 318
+                },
+                "TN": {
+                    "PW_Injection": 2236,
+                    "SQLi": 26634,
+                    "File_Inclusion": 27390,
+                    "XSS": 23163
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8394766007650781,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.8394766007650781
+                },
+                "precision": {
+                    "PW_Injection": 0.8255294346221099,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.06613976705490848
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9044274159216688,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.12407335154116268
+                }
             }
         },
         "8": {
             "accuracy": {
-                "Password": 0.5112299133456042,
-                "SQL_injection": 0.9200780340454989,
-                "Uploading": 0.9623545285882948,
-                "XSS": 0.8494330113397732
+                "Password": 0.5115781159058784,
+                "SQL_injection": 0.917266862904741,
+                "Uploading": 0.9609572212311939,
+                "XSS": 0.8461308455926324
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.06853954971109782
+                "XSS": 0.06354450058297707
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.12055370597511826
+                "XSS": 0.11275862068965517
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4492,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 4492
+                },
+                "TP": {
+                    "PW_Injection": 21251,
+                    "SQLi": 1321,
+                    "File_Inclusion": 580,
+                    "XSS": 327
+                },
+                "TN": {
+                    "PW_Injection": 2228,
+                    "SQLi": 26650,
+                    "File_Inclusion": 27391,
+                    "XSS": 23152
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8394050981373565,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.8394050981373565
+                },
+                "precision": {
+                    "PW_Injection": 0.8255059627860001,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.06785640174310023
+                },
+                "f1_score": {
+                    "PW_Injection": 0.904413329361195,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.12708900116595415
+                }
             }
         },
         "9": {
             "accuracy": {
-                "Password": 0.5116209030864454,
-                "SQL_injection": 0.917486373034271,
-                "Uploading": 0.9622908796546141,
-                "XSS": 0.8458621925005971
+                "Password": 0.5116264597896658,
+                "SQL_injection": 0.9163357823979991,
+                "Uploading": 0.9618456975294079,
+                "XSS": 0.8487183330834958
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.07011427464652334
+                "XSS": 0.06698374950455807
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.12298284355359267
+                "XSS": 0.11814051031108004
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4370,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 4370
+                },
+                "TP": {
+                    "PW_Injection": 21359,
+                    "SQLi": 1338,
+                    "File_Inclusion": 566,
+                    "XSS": 338
+                },
+                "TN": {
+                    "PW_Injection": 2242,
+                    "SQLi": 26633,
+                    "File_Inclusion": 27405,
+                    "XSS": 23263
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8437667584283722,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.8437667584283722
+                },
+                "precision": {
+                    "PW_Injection": 0.8301527459287186,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.07179269328802039
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9071950390757731,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.13396749900911611
+                }
             }
         }
     },
     "payload_LSTM": {
         "0": {
             "accuracy": {
-                "Password": 0.5673630831643002,
-                "SQL_injection": 0.5416011354482335,
-                "Uploading": 0.9796511627906976,
-                "XSS": 0.7612460824280698
+                "Password": 0.5250009384736665,
+                "SQL_injection": 0.5366300366300366,
+                "Uploading": 0.9794110438040547,
+                "XSS": 0.8549161037929032
             },
             "precision": {
                 "Password": 0.0,
-                "SQL_injection": 0.16803020767778476,
+                "SQL_injection": 0.5,
                 "Uploading": 0.0,
-                "XSS": 0.47626373626373625
+                "XSS": 0.0002106593638087213
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
                 "Password": 0.0,
-                "SQL_injection": 0.251506798681381,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.4878433138226024
+                "XSS": 0.0004211412929037692
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 3997,
+                    "SQLi": 22642,
+                    "File_Inclusion": 2,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 21310,
+                    "SQLi": 0,
+                    "File_Inclusion": 586,
+                    "XSS": 4745
+                },
+                "TP": {
+                    "PW_Injection": 0,
+                    "SQLi": 1329,
+                    "File_Inclusion": 0,
+                    "XSS": 1
+                },
+                "TN": {
+                    "PW_Injection": 2664,
+                    "SQLi": 4000,
+                    "File_Inclusion": 27383,
+                    "XSS": 23225
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.0952415001251296,
+                    "SQLi": 0.19051875156412,
+                    "File_Inclusion": 0.9789782274498587,
+                    "XSS": 0.830360015730578
+                },
+                "precision": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.05544199240749239,
+                    "File_Inclusion": 0.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.00021070375052675939
+                },
+                "f1_score": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.10505928853754941,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.0004213187276174426
+                }
             }
         },
         "1": {
             "accuracy": {
-                "Password": 0.5686202760667601,
-                "SQL_injection": 0.5419585116386175,
-                "Uploading": 0.978006993006993,
-                "XSS": 0.7597800803552548
+                "Password": 0.5248728678388471,
+                "SQL_injection": 0.5372517316772926,
+                "Uploading": 0.9783832942740215,
+                "XSS": 0.8530604775991949
             },
             "precision": {
                 "Password": 0.0,
-                "SQL_injection": 0.16687192118226601,
+                "SQL_injection": 0.5,
                 "Uploading": 0.0,
-                "XSS": 0.47627359005127085
+                "XSS": 0.0
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
                 "Password": 0.0,
-                "SQL_injection": 0.2502070343587517,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.4878484831554835
+                "XSS": 0.0
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4053,
+                    "SQLi": 22646,
+                    "File_Inclusion": 2,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 21267,
+                    "SQLi": 0,
+                    "File_Inclusion": 616,
+                    "XSS": 4818
+                },
+                "TP": {
+                    "PW_Injection": 0,
+                    "SQLi": 1270,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "TN": {
+                    "PW_Injection": 2651,
+                    "SQLi": 4055,
+                    "File_Inclusion": 27353,
+                    "XSS": 23153
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.0947767330449394,
+                    "SQLi": 0.19037574630867685,
+                    "File_Inclusion": 0.9779056880340352,
+                    "XSS": 0.8277501698187408
+                },
+                "precision": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.05310252550593745,
+                    "File_Inclusion": 0.0,
+                    "XSS": NaN
+                },
+                "recall": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.0
+                },
+                "f1_score": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.10084967839275788,
+                    "File_Inclusion": 0.0,
+                    "XSS": NaN
+                }
             }
         },
         "2": {
             "accuracy": {
-                "Password": 0.5669720679450277,
-                "SQL_injection": 0.5413871103784074,
-                "Uploading": 0.9785544360481389,
-                "XSS": 0.7627575127575128
+                "Password": 0.5243415502858749,
+                "SQL_injection": 0.5367691546119575,
+                "Uploading": 0.9800974105609868,
+                "XSS": 0.855251490597768
             },
             "precision": {
                 "Password": 0.0,
-                "SQL_injection": 0.17239185750636132,
+                "SQL_injection": 0.5,
                 "Uploading": 0.0,
-                "XSS": 0.47742863465368446
+                "XSS": 0.0
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
                 "Password": 0.0,
-                "SQL_injection": 0.2563610067114335,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.48845370160742585
+                "XSS": 0.0
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4008,
+                    "SQLi": 22654,
+                    "File_Inclusion": 3,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 21366,
+                    "SQLi": 0,
+                    "File_Inclusion": 565,
+                    "XSS": 4734
+                },
+                "TP": {
+                    "PW_Injection": 0,
+                    "SQLi": 1306,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "TN": {
+                    "PW_Injection": 2597,
+                    "SQLi": 4011,
+                    "File_Inclusion": 27403,
+                    "XSS": 23237
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.09284616209645705,
+                    "SQLi": 0.19008973579779057,
+                    "File_Inclusion": 0.9796932537270745,
+                    "XSS": 0.8307532801830467
+                },
+                "precision": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.054507512520868114,
+                    "File_Inclusion": 0.0,
+                    "XSS": NaN
+                },
+                "recall": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.0
+                },
+                "f1_score": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.10338003641257025,
+                    "File_Inclusion": 0.0,
+                    "XSS": NaN
+                }
             }
         },
         "3": {
             "accuracy": {
-                "Password": 0.5671330089213301,
-                "SQL_injection": 0.5412800061354398,
-                "Uploading": 0.9785202029036207,
-                "XSS": 0.7624796238985093
+                "Password": 0.5241646833948617,
+                "SQL_injection": 0.537132892804699,
+                "Uploading": 0.980578439964943,
+                "XSS": 0.854080791426216
             },
             "precision": {
                 "Password": 0.0,
-                "SQL_injection": 0.16709511568123395,
+                "SQL_injection": 0.5,
                 "Uploading": 0.0,
-                "XSS": 0.4757904045987177
+                "XSS": 0.0002092487968194183
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
                 "Password": 0.0,
-                "SQL_injection": 0.2504578419163431,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.48759487934745666
+                "XSS": 0.0004183225266680611
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4041,
+                    "SQLi": 22633,
+                    "File_Inclusion": 4,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 21351,
+                    "SQLi": 0,
+                    "File_Inclusion": 550,
+                    "XSS": 4777
+                },
+                "TP": {
+                    "PW_Injection": 0,
+                    "SQLi": 1292,
+                    "File_Inclusion": 0,
+                    "XSS": 1
+                },
+                "TN": {
+                    "PW_Injection": 2579,
+                    "SQLi": 4046,
+                    "File_Inclusion": 27417,
+                    "XSS": 23193
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.09220263844696293,
+                    "SQLi": 0.19084051338886704,
+                    "File_Inclusion": 0.9801937721211255,
+                    "XSS": 0.829215973687033
+                },
+                "precision": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.05400208986415883,
+                    "File_Inclusion": 0.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.0002092925910422771
+                },
+                "f1_score": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.10247055557758655,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.0004184975936388366
+                }
             }
         },
         "4": {
             "accuracy": {
-                "Password": 0.5679275547704615,
-                "SQL_injection": 0.5421388238005608,
-                "Uploading": 0.9795139375262641,
-                "XSS": 0.7596318643908624
+                "Password": 0.5249221183800623,
+                "SQL_injection": 0.5363216537164639,
+                "Uploading": 0.9807847399978962,
+                "XSS": 0.8541329506244465
             },
             "precision": {
                 "Password": 0.0,
-                "SQL_injection": 0.16110761485210826,
+                "SQL_injection": 0.5,
                 "Uploading": 0.0,
-                "XSS": 0.4776639790804097
+                "XSS": 0.00020933640360058616
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
                 "Password": 0.0,
-                "SQL_injection": 0.24367090096490465,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.48857684163601917
+                "XSS": 0.00041849759363883664
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 3962,
+                    "SQLi": 22712,
+                    "File_Inclusion": 1,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 21353,
+                    "SQLi": 0,
+                    "File_Inclusion": 547,
+                    "XSS": 4775
+                },
+                "TP": {
+                    "PW_Injection": 0,
+                    "SQLi": 1295,
+                    "File_Inclusion": 0,
+                    "XSS": 1
+                },
+                "TN": {
+                    "PW_Injection": 2656,
+                    "SQLi": 3964,
+                    "File_Inclusion": 27423,
+                    "XSS": 23195
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.09495548961424333,
+                    "SQLi": 0.18801615959386508,
+                    "File_Inclusion": 0.9804082800042901,
+                    "XSS": 0.8292874763147545
+                },
+                "precision": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.05394260007497813,
+                    "File_Inclusion": 0.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.00020938023450586265
+                },
+                "f1_score": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.10236344952968145,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.0004186728072011723
+                }
             }
         },
         "5": {
             "accuracy": {
-                "Password": 0.5666849004234283,
-                "SQL_injection": 0.5414451588139334,
-                "Uploading": 0.9791710424980746,
-                "XSS": 0.7623252738949754
+                "Password": 0.5248334740594802,
+                "SQL_injection": 0.536867752395259,
+                "Uploading": 0.9802347993691958,
+                "XSS": 0.8542328365502077
             },
             "precision": {
                 "Password": 0.0,
-                "SQL_injection": 0.15876152832674573,
+                "SQL_injection": 0.5,
                 "Uploading": 0.0,
-                "XSS": 0.4771646577463231
+                "XSS": 0.0
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
                 "Password": 0.0,
-                "SQL_injection": 0.24097791799306603,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.4883155095343179
+                "XSS": 0.0
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4022,
+                    "SQLi": 22611,
+                    "File_Inclusion": 3,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 21302,
+                    "SQLi": 0,
+                    "File_Inclusion": 561,
+                    "XSS": 4773
+                },
+                "TP": {
+                    "PW_Injection": 0,
+                    "SQLi": 1335,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "TN": {
+                    "PW_Injection": 2647,
+                    "SQLi": 4025,
+                    "File_Inclusion": 27407,
+                    "XSS": 23198
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.09463372778949626,
+                    "SQLi": 0.19162704229380428,
+                    "File_Inclusion": 0.9798362589825176,
+                    "XSS": 0.8293589789424761
+                },
+                "precision": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.05575043848659484,
+                    "File_Inclusion": 0.0,
+                    "XSS": NaN
+                },
+                "recall": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.0
+                },
+                "f1_score": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.10561291088168981,
+                    "File_Inclusion": 0.0,
+                    "XSS": NaN
+                }
             }
         },
         "6": {
             "accuracy": {
-                "Password": 0.5668916317058835,
-                "SQL_injection": 0.5420982837814464,
-                "Uploading": 0.9795482402381369,
-                "XSS": 0.7609391173426179
+                "Password": 0.5246858000375164,
+                "SQL_injection": 0.5368667814365774,
+                "Uploading": 0.9797541069739746,
+                "XSS": 0.8551774740897001
             },
             "precision": {
                 "Password": 0.0,
-                "SQL_injection": 0.15956727518593644,
+                "SQL_injection": 0.5,
                 "Uploading": 0.0,
-                "XSS": 0.47652761137131033
+                "XSS": 0.00021110407430863416
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
                 "Password": 0.0,
-                "SQL_injection": 0.2419049645705181,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.4879817076571301
+                "XSS": 0.000422029964127453
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4023,
+                    "SQLi": 22602,
+                    "File_Inclusion": 2,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 21316,
+                    "SQLi": 0,
+                    "File_Inclusion": 576,
+                    "XSS": 4735
+                },
+                "TP": {
+                    "PW_Injection": 0,
+                    "SQLi": 1343,
+                    "File_Inclusion": 0,
+                    "XSS": 1
+                },
+                "TN": {
+                    "PW_Injection": 2632,
+                    "SQLi": 4026,
+                    "File_Inclusion": 27393,
+                    "XSS": 23235
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.0940974580815845,
+                    "SQLi": 0.19194880411855136,
+                    "File_Inclusion": 0.9793357405884666,
+                    "XSS": 0.8307175288691859
+                },
+                "precision": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.05608686573397369,
+                    "File_Inclusion": 0.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.00021114864864864866
+                },
+                "f1_score": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.1062163872192344,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.0004222081486172683
+                }
             }
         },
         "7": {
             "accuracy": {
-                "Password": 0.5676163805349244,
-                "SQL_injection": 0.5416139058363071,
-                "Uploading": 0.9786913925822254,
-                "XSS": 0.7612102075920734
+                "Password": 0.5249024170544964,
+                "SQL_injection": 0.5373473653331378,
+                "Uploading": 0.9796168528701013,
+                "XSS": 0.8532991672005125
             },
             "precision": {
                 "Password": 0.0,
-                "SQL_injection": 0.16444444444444445,
+                "SQL_injection": 0.5,
                 "Uploading": 0.0,
-                "XSS": 0.4760544815465729
+                "XSS": 0.0002079434393844874
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
                 "Password": 0.0,
-                "SQL_injection": 0.24746835121127506,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.48773351339185234
+                "XSS": 0.0004157139887757223
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4072,
+                    "SQLi": 22560,
+                    "File_Inclusion": 1,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 21245,
+                    "SQLi": 0,
+                    "File_Inclusion": 581,
+                    "XSS": 4807
+                },
+                "TP": {
+                    "PW_Injection": 0,
+                    "SQLi": 1337,
+                    "File_Inclusion": 0,
+                    "XSS": 1
+                },
+                "TN": {
+                    "PW_Injection": 2654,
+                    "SQLi": 4074,
+                    "File_Inclusion": 27389,
+                    "XSS": 23163
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.09488398698652176,
+                    "SQLi": 0.1934503593007043,
+                    "File_Inclusion": 0.9791927353330235,
+                    "XSS": 0.8281434342712095
+                },
+                "precision": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.05594844541155793,
+                    "File_Inclusion": 0.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.00020798668885191348
+                },
+                "f1_score": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.10596813822620274,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.0004158868787689748
+                }
             }
         },
         "8": {
             "accuracy": {
-                "Password": 0.5657107030175552,
-                "SQL_injection": 0.5407371948300622,
-                "Uploading": 0.9797197898423818,
-                "XSS": 0.7648720505151213
+                "Password": 0.5248137793872075,
+                "SQL_injection": 0.5373988662006715,
+                "Uploading": 0.9796511627906976,
+                "XSS": 0.8530129299829227
             },
             "precision": {
                 "Password": 0.0,
-                "SQL_injection": 0.17478882391163092,
+                "SQL_injection": 0.5,
                 "Uploading": 0.0,
-                "XSS": 0.47619047619047616
+                "XSS": 0.0002074688796680498
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
                 "Password": 0.0,
-                "SQL_injection": 0.25900193445124403,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.4878048780487805
+                "XSS": 0.00041476565740356696
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4075,
+                    "SQLi": 22573,
+                    "File_Inclusion": 1,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 21251,
+                    "SQLi": 0,
+                    "File_Inclusion": 580,
+                    "XSS": 4818
+                },
+                "TP": {
+                    "PW_Injection": 0,
+                    "SQLi": 1321,
+                    "File_Inclusion": 0,
+                    "XSS": 1
+                },
+                "TN": {
+                    "PW_Injection": 2645,
+                    "SQLi": 4077,
+                    "File_Inclusion": 27390,
+                    "XSS": 23152
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.09456222516177469,
+                    "SQLi": 0.1929855922205141,
+                    "File_Inclusion": 0.9792284866468842,
+                    "XSS": 0.8277501698187408
+                },
+                "precision": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.05528584581903407,
+                    "File_Inclusion": 0.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.00020751193193608634
+                },
+                "f1_score": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.10477890144755107,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.0004149377593360996
+                }
             }
         },
         "9": {
             "accuracy": {
-                "Password": 0.5677200673851712,
-                "SQL_injection": 0.5422527092460226,
-                "Uploading": 0.9794796372167944,
-                "XSS": 0.7597417840375587
+                "Password": 0.5246464343324455,
+                "SQL_injection": 0.5364804510177186,
+                "Uploading": 0.9800974105609868,
+                "XSS": 0.8559319440619358
             },
             "precision": {
                 "Password": 0.0,
-                "SQL_injection": 0.1595405232929164,
+                "SQL_injection": 0.5,
                 "Uploading": 0.0,
-                "XSS": 0.477868406742795
+                "XSS": 0.0
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
                 "Password": 0.0,
-                "SQL_injection": 0.2418742217260071,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.48868375688149923
+                "XSS": 0.0
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 3984,
+                    "SQLi": 22647,
+                    "File_Inclusion": 2,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 21359,
+                    "SQLi": 0,
+                    "File_Inclusion": 566,
+                    "XSS": 4708
+                },
+                "TP": {
+                    "PW_Injection": 0,
+                    "SQLi": 1338,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "TN": {
+                    "PW_Injection": 2628,
+                    "SQLi": 3986,
+                    "File_Inclusion": 27403,
+                    "XSS": 23263
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.09395445282614136,
+                    "SQLi": 0.19033999499481605,
+                    "File_Inclusion": 0.9796932537270745,
+                    "XSS": 0.8316828143434272
+                },
+                "precision": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.055784865540963104,
+                    "File_Inclusion": 0.0,
+                    "XSS": NaN
+                },
+                "recall": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.0
+                },
+                "f1_score": {
+                    "PW_Injection": 0.0,
+                    "SQLi": 0.1056746830944201,
+                    "File_Inclusion": 0.0,
+                    "XSS": NaN
+                }
             }
         }
     },
     "DNN": {
         "0": {
             "accuracy": {
-                "Password": 0.5308750996144651,
-                "SQL_injection": 0.9173662448314748,
-                "Uploading": 0.9804409548179046,
-                "XSS": 0.7790873884492339
+                "Password": 0.512212613811167,
+                "SQL_injection": 0.9546416382252559,
+                "Uploading": 0.9794796372167944,
+                "XSS": 0.8103535825961461
             },
             "precision": {
                 "Password": 0.5,
-                "SQL_injection": 0.4986727341676147,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.4810540069686411
+                "XSS": 0.33117249154453215
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.4992406985573273,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.4903440621531631
+                "XSS": 0.3984401492031197
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4311,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 1329,
+                    "File_Inclusion": 586,
+                    "XSS": 2396
+                },
+                "TP": {
+                    "PW_Injection": 21310,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2350
+                },
+                "TN": {
+                    "PW_Injection": 2350,
+                    "SQLi": 26642,
+                    "File_Inclusion": 27385,
+                    "XSS": 23225
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8458760859461585,
+                    "SQLi": 0.9524865038790176,
+                    "File_Inclusion": 0.9790497300775803,
+                    "XSS": 0.9143398519895606
+                },
+                "precision": {
+                    "PW_Injection": 0.8317395886187112,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 0.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.49515381373788453
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9081417400012783,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 0.6623449830890643
+                }
             }
         },
         "1": {
             "accuracy": {
-                "Password": 0.5356508859629061,
-                "SQL_injection": 0.9154595404595405,
-                "Uploading": 0.9545424047235641,
-                "XSS": 0.7781245498631584
+                "Password": 0.5126021550153558,
+                "SQL_injection": 0.9565678328374543,
+                "Uploading": 0.9784517437996292,
+                "XSS": 0.8076320055273578
             },
             "precision": {
                 "Password": 0.5,
-                "SQL_injection": 0.5,
-                "Uploading": 0.4438305709023941,
-                "XSS": 0.48052369616966023
+                "SQL_injection": 0.0,
+                "Uploading": 0.0,
+                "XSS": 0.33443845835060093
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.49006841756786584
+                "XSS": 0.4007946362056121
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4283,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 1270,
+                    "File_Inclusion": 616,
+                    "XSS": 2397
+                },
+                "TP": {
+                    "PW_Injection": 21267,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2421
+                },
+                "TN": {
+                    "PW_Injection": 2421,
+                    "SQLi": 26701,
+                    "File_Inclusion": 27355,
+                    "XSS": 23153
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8468771227342605,
+                    "SQLi": 0.9545958313968038,
+                    "File_Inclusion": 0.9779771906617568,
+                    "XSS": 0.9143041006756998
+                },
+                "precision": {
+                    "PW_Injection": 0.8323679060665362,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 0.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.5024906600249066
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9085161373005533,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 0.6688769167012019
+                }
             }
         },
         "2": {
             "accuracy": {
-                "Password": 0.5343826505188812,
-                "SQL_injection": 0.9183635051611081,
-                "Uploading": 0.9584622628817435,
-                "XSS": 0.7801503904367106
+                "Password": 0.5119645525485639,
+                "SQL_injection": 0.9553916043310449,
+                "Uploading": 0.9802004485562097,
+                "XSS": 0.8113460353190235
             },
             "precision": {
                 "Password": 0.5,
-                "SQL_injection": 0.4998077662437524,
-                "Uploading": 0.472596585804133,
-                "XSS": 0.4822407366805525
+                "SQL_injection": 0.0,
+                "Uploading": 0.0,
+                "XSS": 0.3275568181818182
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.499808862214874,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.4909598214285714
+                "XSS": 0.3958118777892207
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4299,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 1306,
+                    "File_Inclusion": 565,
+                    "XSS": 2428
+                },
+                "TP": {
+                    "PW_Injection": 21366,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2306
+                },
+                "TN": {
+                    "PW_Injection": 2306,
+                    "SQLi": 26665,
+                    "File_Inclusion": 27406,
+                    "XSS": 23237
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.846305101712488,
+                    "SQLi": 0.9533087840978156,
+                    "File_Inclusion": 0.9798005076686568,
+                    "XSS": 0.9131958099460156
+                },
+                "precision": {
+                    "PW_Injection": 0.8324956165984804,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 0.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.4871144909167723
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9085922051412897,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 0.6551136363636363
+                }
             }
         },
         "3": {
             "accuracy": {
-                "Password": 0.5120755892430693,
-                "SQL_injection": 0.9557180442136194,
-                "Uploading": 0.9794796372167944,
-                "XSS": 0.8108390204737054
+                "Password": 0.5121968949582013,
+                "SQL_injection": 0.9558486826367768,
+                "Uploading": 0.980715963675888,
+                "XSS": 0.8096776777846022
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.32908885116015846
+                "XSS": 0.3295916935597025
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
+                "Password": 0.4759299170305189,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3969283276450512
+                "XSS": 0.3972938689217759
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4271,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 1292,
+                    "File_Inclusion": 550,
+                    "XSS": 2429
+                },
+                "TP": {
+                    "PW_Injection": 21351,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2349
+                },
+                "TN": {
+                    "PW_Injection": 2349,
+                    "SQLi": 26679,
+                    "File_Inclusion": 27421,
+                    "XSS": 23193
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8473061385005899,
+                    "SQLi": 0.9538093024918666,
+                    "File_Inclusion": 0.9803367773765685,
+                    "XSS": 0.9131600586321548
+                },
+                "precision": {
+                    "PW_Injection": 0.8333073140270081,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 0.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.4916282963583089
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9090754263087306,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 0.659183387119405
+                }
             }
         },
         "4": {
             "accuracy": {
-                "Password": 0.5123011786245566,
-                "SQL_injection": 0.9545113295113296,
-                "Uploading": 0.9800974105609868,
-                "XSS": 0.8090678757167622
+                "Password": 0.5123347148213934,
+                "SQL_injection": 0.955750700471537,
+                "Uploading": 0.9808191317764219,
+                "XSS": 0.809291409979465
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.33035340131303254
+                "XSS": 0.3321213816249476
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
+                "Password": 0.4759299170305189,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.39784674909580287
+                "XSS": 0.3991261238551383
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4243,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 1295,
+                    "File_Inclusion": 547,
+                    "XSS": 2401
+                },
+                "TP": {
+                    "PW_Injection": 21353,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2375
+                },
+                "TN": {
+                    "PW_Injection": 2375,
+                    "SQLi": 26676,
+                    "File_Inclusion": 27424,
+                    "XSS": 23195
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8483071752886918,
+                    "SQLi": 0.9537020485502842,
+                    "File_Inclusion": 0.9804440313181509,
+                    "XSS": 0.9141610954202567
+                },
+                "precision": {
+                    "PW_Injection": 0.8342319112361306,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 0.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.4972780569514238
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9096253381328675,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 0.6642427632498952
+                }
             }
         },
         "5": {
             "accuracy": {
-                "Password": 0.5120928833044542,
-                "SQL_injection": 0.9563388949671773,
-                "Uploading": 0.9796168528701013,
-                "XSS": 0.8110596611439737
+                "Password": 0.5122732234755939,
+                "SQL_injection": 0.9544461884938238,
+                "Uploading": 0.9803378662554325,
+                "XSS": 0.8095873592056798
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.33021674458138545
+                "XSS": 0.3309503784693019
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
+                "Password": 0.4759299170305189,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3977476324545687
+                "XSS": 0.3982793522267206
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4308,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 1335,
+                    "File_Inclusion": 561,
+                    "XSS": 2412
+                },
+                "TP": {
+                    "PW_Injection": 21302,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2361
+                },
+                "TN": {
+                    "PW_Injection": 2361,
+                    "SQLi": 26636,
+                    "File_Inclusion": 27410,
+                    "XSS": 23198
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8459833398877409,
+                    "SQLi": 0.9522719959958529,
+                    "File_Inclusion": 0.9799435129241,
+                    "XSS": 0.913767830967788
+                },
+                "precision": {
+                    "PW_Injection": 0.8317844591956267,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 0.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.49465744814582024
+                },
+                "f1_score": {
+                    "PW_Injection": 0.908168485675307,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 0.6619007569386038
+                }
             }
         },
         "6": {
             "accuracy": {
-                "Password": 0.5122893367807857,
-                "SQL_injection": 0.9574519066201136,
-                "Uploading": 0.9804409548179046,
-                "XSS": 0.8087760923462451
+                "Password": 0.5119131699210636,
+                "SQL_injection": 0.954185713311046,
+                "Uploading": 0.9798227484499247,
+                "XSS": 0.8115028824239174
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3299874529485571
+                "XSS": 0.3263157894736842
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
+                "Password": 0.4759299170305189,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3975812547241118
+                "XSS": 0.39490445859872614
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4361,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 1343,
+                    "File_Inclusion": 576,
+                    "XSS": 2442
+                },
+                "TP": {
+                    "PW_Injection": 21316,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2294
+                },
+                "TN": {
+                    "PW_Injection": 2294,
+                    "SQLi": 26628,
+                    "File_Inclusion": 27395,
+                    "XSS": 23235
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8440885202531193,
+                    "SQLi": 0.9519859854849666,
+                    "File_Inclusion": 0.9794072432161882,
+                    "XSS": 0.9126952915519645
+                },
+                "precision": {
+                    "PW_Injection": 0.830159286521011,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 0.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.484375
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9071989445236524,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 0.6526315789473685
+                }
             }
         },
         "7": {
             "accuracy": {
-                "Password": 0.5120440611036059,
-                "SQL_injection": 0.9550653873732373,
-                "Uploading": 0.9796168528701013,
-                "XSS": 0.8103646627605212
+                "Password": 0.5122024831662972,
+                "SQL_injection": 0.9543810563668623,
+                "Uploading": 0.9796511627906976,
+                "XSS": 0.8090955189623422
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3270316027088036
+                "XSS": 0.3278344750454355
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
+                "Password": 0.4759299170305189,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.39542818150801773
+                "XSS": 0.3960145233471249
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4381,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 1337,
+                    "File_Inclusion": 581,
+                    "XSS": 2463
+                },
+                "TP": {
+                    "PW_Injection": 21245,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2345
+                },
+                "TN": {
+                    "PW_Injection": 2345,
+                    "SQLi": 26634,
+                    "File_Inclusion": 27390,
+                    "XSS": 23163
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8433734939759037,
+                    "SQLi": 0.9522004933681313,
+                    "File_Inclusion": 0.9792284866468842,
+                    "XSS": 0.911944513960888
+                },
+                "precision": {
+                    "PW_Injection": 0.8290408179193007,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 0.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.4877287853577371
+                },
+                "f1_score": {
+                    "PW_Injection": 0.906530690618933,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 0.655668950090871
+                }
             }
         },
         "8": {
             "accuracy": {
-                "Password": 0.5119816908992999,
-                "SQL_injection": 0.9565678328374543,
-                "Uploading": 0.9804409548179046,
-                "XSS": 0.8124966464559746
+                "Password": 0.5121316797070085,
+                "SQL_injection": 0.9549023624197733,
+                "Uploading": 0.979685475114707,
+                "XSS": 0.8090724622203236
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.33109171555301187
+                "XSS": 0.3261082366102643
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
+                "Password": 0.4759299170305189,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3983816820177326
+                "XSS": 0.39475243334743965
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4388,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 1321,
+                    "File_Inclusion": 580,
+                    "XSS": 2487
+                },
+                "TP": {
+                    "PW_Injection": 21251,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2332
+                },
+                "TN": {
+                    "PW_Injection": 2332,
+                    "SQLi": 26650,
+                    "File_Inclusion": 27391,
+                    "XSS": 23152
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8431232347788781,
+                    "SQLi": 0.9527725143899038,
+                    "File_Inclusion": 0.979264237960745,
+                    "XSS": 0.9110864824282292
+                },
+                "precision": {
+                    "PW_Injection": 0.8288544795038808,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 0.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.4839178252749533
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9064192791640009,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 0.6522164732205286
+                }
             }
         },
         "9": {
             "accuracy": {
-                "Password": 0.5122592854469076,
-                "SQL_injection": 0.9550327779295275,
-                "Uploading": 0.9804065895548545,
-                "XSS": 0.8090322236448997
+                "Password": 0.5123544624588444,
+                "SQL_injection": 0.9543484936367669,
+                "Uploading": 0.9801661001506816,
+                "XSS": 0.8106953014397521
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.32937561111887137
+                "XSS": 0.3356850571468887
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
+                "Password": 0.4759299170305189,
                 "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3971368421052632
+                "XSS": 0.40168847615027437
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 4233,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 1338,
+                    "File_Inclusion": 566,
+                    "XSS": 2329
+                },
+                "TP": {
+                    "PW_Injection": 21359,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2379
+                },
+                "TN": {
+                    "PW_Injection": 2379,
+                    "SQLi": 26633,
+                    "File_Inclusion": 27405,
+                    "XSS": 23263
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.8486646884272997,
+                    "SQLi": 0.9521647420542705,
+                    "File_Inclusion": 0.979764756354796,
+                    "XSS": 0.9167351900182331
+                },
+                "precision": {
+                    "PW_Injection": 0.8345967489840576,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 0.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.5053101104502974
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9098421758854978,
+                    "SQLi": NaN,
+                    "File_Inclusion": NaN,
+                    "XSS": 0.6713701142937774
+                }
             }
         }
     },
     "non_weighted_Ensemble": {
         "0": {
             "accuracy": {
-                "Password": 0.53411922768544,
-                "SQL_injection": 0.9172120111469455,
-                "Uploading": 0.9623545285882948,
-                "XSS": 0.7790873884492339
+                "Password": 0.5226147173292893,
+                "SQL_injection": 0.9168283371925653,
+                "Uploading": 0.9605772141679841,
+                "XSS": 0.8103535825961461
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.4810540069686411
+                "XSS": 0.33117249154453215
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.4903440621531631
+                "XSS": 0.3984401492031197
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2396,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2396
+                },
+                "TP": {
+                    "PW_Injection": 21310,
+                    "SQLi": 1329,
+                    "File_Inclusion": 586,
+                    "XSS": 2350
+                },
+                "TN": {
+                    "PW_Injection": 4265,
+                    "SQLi": 26642,
+                    "File_Inclusion": 27385,
+                    "XSS": 23225
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9143398519895606,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9143398519895606
+                },
+                "precision": {
+                    "PW_Injection": 0.8989285412975618,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.49515381373788453
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9467744801848232,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6623449830890643
+                }
             }
         },
         "1": {
             "accuracy": {
-                "Password": 0.5347830814395998,
-                "SQL_injection": 0.9155167030908523,
-                "Uploading": 0.9594399489641742,
-                "XSS": 0.7781245498631584
+                "Password": 0.5228684598965689,
+                "SQL_injection": 0.9200780340454989,
+                "Uploading": 0.95868406049834,
+                "XSS": 0.8076320055273578
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.48052369616966023
+                "XSS": 0.33443845835060093
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.49006841756786584
+                "XSS": 0.4007946362056121
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2397,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2397
+                },
+                "TP": {
+                    "PW_Injection": 21267,
+                    "SQLi": 1270,
+                    "File_Inclusion": 616,
+                    "XSS": 2421
+                },
+                "TN": {
+                    "PW_Injection": 4307,
+                    "SQLi": 26701,
+                    "File_Inclusion": 27355,
+                    "XSS": 23153
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9143041006756998,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9143041006756998
+                },
+                "precision": {
+                    "PW_Injection": 0.8987068965517241,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.5024906600249066
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9466515323496026,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6688769167012019
+                }
             }
         },
         "2": {
             "accuracy": {
-                "Password": 0.5347244051812909,
-                "SQL_injection": 0.9183660663863964,
-                "Uploading": 0.9605139243912283,
-                "XSS": 0.7785392504552862
+                "Password": 0.5221012307269014,
+                "SQL_injection": 0.9180908777321334,
+                "Uploading": 0.961909256387784,
+                "XSS": 0.8113460353190235
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.48896342782947416
+                "XSS": 0.3275568181818182
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.49442013129102846
+                "XSS": 0.3958118777892207
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2428,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2428
+                },
+                "TP": {
+                    "PW_Injection": 21366,
+                    "SQLi": 1306,
+                    "File_Inclusion": 565,
+                    "XSS": 2306
+                },
+                "TN": {
+                    "PW_Injection": 4177,
+                    "SQLi": 26665,
+                    "File_Inclusion": 27406,
+                    "XSS": 23237
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9131958099460156,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9131958099460156
+                },
+                "precision": {
+                    "PW_Injection": 0.8979574682693116,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.4871144909167723
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9462356067316209,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6551136363636363
+                }
             }
         },
         "3": {
             "accuracy": {
-                "Password": 0.5222815266658195,
-                "SQL_injection": 0.9186415141718196,
-                "Uploading": 0.9605772141679841,
-                "XSS": 0.8108390204737054
+                "Password": 0.5221856373010916,
+                "SQL_injection": 0.9188620592206487,
+                "Uploading": 0.9628641841936464,
+                "XSS": 0.8096776777846022
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.32908885116015846
+                "XSS": 0.3295916935597025
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3969283276450512
+                "XSS": 0.3972938689217759
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2429,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2429
+                },
+                "TP": {
+                    "PW_Injection": 21351,
+                    "SQLi": 1292,
+                    "File_Inclusion": 550,
+                    "XSS": 2349
+                },
+                "TN": {
+                    "PW_Injection": 4191,
+                    "SQLi": 26679,
+                    "File_Inclusion": 27421,
+                    "XSS": 23193
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9131600586321548,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9131600586321548
+                },
+                "precision": {
+                    "PW_Injection": 0.8978553406223717,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.4916282963583089
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9461789014203099,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.659183387119405
+                }
             }
         },
         "4": {
             "accuracy": {
-                "Password": 0.5226365836057223,
-                "SQL_injection": 0.9166093212386612,
-                "Uploading": 0.9617186183656277,
-                "XSS": 0.8090678757167622
+                "Password": 0.5223284726413996,
+                "SQL_injection": 0.9186966348568558,
+                "Uploading": 0.9630555180332298,
+                "XSS": 0.809291409979465
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.33035340131303254
+                "XSS": 0.3321213816249476
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.39784674909580287
+                "XSS": 0.3991261238551383
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2401,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2401
+                },
+                "TP": {
+                    "PW_Injection": 21353,
+                    "SQLi": 1295,
+                    "File_Inclusion": 547,
+                    "XSS": 2375
+                },
+                "TN": {
+                    "PW_Injection": 4217,
+                    "SQLi": 26676,
+                    "File_Inclusion": 27424,
+                    "XSS": 23195
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9141610954202567,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9141610954202567
+                },
+                "precision": {
+                    "PW_Injection": 0.8989222867727541,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.4972780569514238
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9467710111512626,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6642427632498952
+                }
             }
         },
         "5": {
             "accuracy": {
-                "Password": 0.5221646212441812,
-                "SQL_injection": 0.9196905854977674,
-                "Uploading": 0.9608305010599993,
-                "XSS": 0.8110596611439737
+                "Password": 0.5194833948339483,
+                "SQL_injection": 0.9164998749061797,
+                "Uploading": 0.9803378662554325,
+                "XSS": 0.8095873592056798
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
-                "Uploading": 0.5,
-                "XSS": 0.33021674458138545
+                "Uploading": 0.0,
+                "XSS": 0.3309503784693019
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3977476324545687
+                "XSS": 0.3982793522267206
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2973,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 561,
+                    "XSS": 2412
+                },
+                "TP": {
+                    "PW_Injection": 21302,
+                    "SQLi": 1335,
+                    "File_Inclusion": 0,
+                    "XSS": 2361
+                },
+                "TN": {
+                    "PW_Injection": 3696,
+                    "SQLi": 26636,
+                    "File_Inclusion": 27410,
+                    "XSS": 23198
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.893711343891888,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.9799435129241,
+                    "XSS": 0.913767830967788
+                },
+                "precision": {
+                    "PW_Injection": 0.8775283213182287,
+                    "SQLi": 1.0,
+                    "File_Inclusion": NaN,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.49465744814582024
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9347697303464467,
+                    "SQLi": 1.0,
+                    "File_Inclusion": NaN,
+                    "XSS": 0.6619007569386038
+                }
             }
         },
         "6": {
             "accuracy": {
-                "Password": 0.5220524433345326,
-                "SQL_injection": 0.9215772870662461,
-                "Uploading": 0.9623545285882948,
-                "XSS": 0.8087760923462451
+                "Password": 0.5223238414175347,
+                "SQL_injection": 0.9160625,
+                "Uploading": 0.9612108151789622,
+                "XSS": 0.8115028824239174
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.3299874529485571
+                "XSS": 0.3263157894736842
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3975812547241118
+                "XSS": 0.39490445859872614
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2442,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2442
+                },
+                "TP": {
+                    "PW_Injection": 21316,
+                    "SQLi": 1343,
+                    "File_Inclusion": 576,
+                    "XSS": 2294
+                },
+                "TN": {
+                    "PW_Injection": 4213,
+                    "SQLi": 26628,
+                    "File_Inclusion": 27395,
+                    "XSS": 23235
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9126952915519645,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9126952915519645
+                },
+                "precision": {
+                    "PW_Injection": 0.8972135701658389,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.484375
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9458224253449883,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6526315789473685
+                }
             }
         },
         "7": {
             "accuracy": {
-                "Password": 0.522346605605733,
-                "SQL_injection": 0.9175412763557755,
-                "Uploading": 0.9608305010599993,
-                "XSS": 0.8103646627605212
+                "Password": 0.5226348373668617,
+                "SQL_injection": 0.916390469639172,
+                "Uploading": 0.9608938547486033,
+                "XSS": 0.8090955189623422
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.3270316027088036
+                "XSS": 0.3278344750454355
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.39542818150801773
+                "XSS": 0.3960145233471249
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2463,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2463
+                },
+                "TP": {
+                    "PW_Injection": 21245,
+                    "SQLi": 1337,
+                    "File_Inclusion": 581,
+                    "XSS": 2345
+                },
+                "TN": {
+                    "PW_Injection": 4263,
+                    "SQLi": 26634,
+                    "File_Inclusion": 27390,
+                    "XSS": 23163
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.911944513960888,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.911944513960888
+                },
+                "precision": {
+                    "PW_Injection": 0.8961110173781002,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.4877287853577371
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9452094409716815,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.655668950090871
+                }
             }
         },
         "8": {
             "accuracy": {
-                "Password": 0.5218607498733322,
-                "SQL_injection": 0.9200780340454989,
-                "Uploading": 0.9623545285882948,
-                "XSS": 0.8124966464559746
+                "Password": 0.5224655295029242,
+                "SQL_injection": 0.917266862904741,
+                "Uploading": 0.9609572212311939,
+                "XSS": 0.8090724622203236
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.33109171555301187
+                "XSS": 0.3261082366102643
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3983816820177326
+                "XSS": 0.39475243334743965
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2487,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2487
+                },
+                "TP": {
+                    "PW_Injection": 21251,
+                    "SQLi": 1321,
+                    "File_Inclusion": 580,
+                    "XSS": 2332
+                },
+                "TN": {
+                    "PW_Injection": 4233,
+                    "SQLi": 26650,
+                    "File_Inclusion": 27391,
+                    "XSS": 23152
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9110864824282292,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9110864824282292
+                },
+                "precision": {
+                    "PW_Injection": 0.895231274749347,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.4839178252749533
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9447198204005425,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6522164732205286
+                }
             }
         },
         "9": {
             "accuracy": {
-                "Password": 0.5224505811487231,
-                "SQL_injection": 0.917486373034271,
-                "Uploading": 0.9622908796546141,
-                "XSS": 0.8090322236448997
+                "Password": 0.5226909098615129,
+                "SQL_injection": 0.9163357823979991,
+                "Uploading": 0.9618456975294079,
+                "XSS": 0.8106953014397521
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.32937561111887137
+                "XSS": 0.3356850571468887
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3971368421052632
+                "XSS": 0.40168847615027437
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2329,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2329
+                },
+                "TP": {
+                    "PW_Injection": 21359,
+                    "SQLi": 1338,
+                    "File_Inclusion": 566,
+                    "XSS": 2379
+                },
+                "TN": {
+                    "PW_Injection": 4283,
+                    "SQLi": 26633,
+                    "File_Inclusion": 27405,
+                    "XSS": 23263
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9167351900182331,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9167351900182331
+                },
+                "precision": {
+                    "PW_Injection": 0.9016801756163458,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.5053101104502974
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9482984438475369,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6713701142937774
+                }
             }
         }
     },
     "weighted_Ensemble": {
         "0": {
             "accuracy": {
-                "Password": 0.53411922768544,
-                "SQL_injection": 0.9172120111469455,
-                "Uploading": 0.9623545285882948,
-                "XSS": 0.7790873884492339
+                "Password": 0.5226147173292893,
+                "SQL_injection": 0.9168283371925653,
+                "Uploading": 0.9605772141679841,
+                "XSS": 0.8103535825961461
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.4810540069686411
+                "XSS": 0.33117249154453215
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.4903440621531631
+                "XSS": 0.3984401492031197
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2396,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2396
+                },
+                "TP": {
+                    "PW_Injection": 21310,
+                    "SQLi": 1329,
+                    "File_Inclusion": 586,
+                    "XSS": 2350
+                },
+                "TN": {
+                    "PW_Injection": 4265,
+                    "SQLi": 26642,
+                    "File_Inclusion": 27385,
+                    "XSS": 23225
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9143398519895606,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9143398519895606
+                },
+                "precision": {
+                    "PW_Injection": 0.8989285412975618,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.49515381373788453
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9467744801848232,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6623449830890643
+                }
             }
         },
         "1": {
             "accuracy": {
-                "Password": 0.5347830814395998,
-                "SQL_injection": 0.9155167030908523,
-                "Uploading": 0.9594399489641742,
-                "XSS": 0.7781245498631584
+                "Password": 0.5228684598965689,
+                "SQL_injection": 0.9200780340454989,
+                "Uploading": 0.95868406049834,
+                "XSS": 0.8076320055273578
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.48052369616966023
+                "XSS": 0.33443845835060093
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.49006841756786584
+                "XSS": 0.4007946362056121
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2397,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2397
+                },
+                "TP": {
+                    "PW_Injection": 21267,
+                    "SQLi": 1270,
+                    "File_Inclusion": 616,
+                    "XSS": 2421
+                },
+                "TN": {
+                    "PW_Injection": 4307,
+                    "SQLi": 26701,
+                    "File_Inclusion": 27355,
+                    "XSS": 23153
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9143041006756998,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9143041006756998
+                },
+                "precision": {
+                    "PW_Injection": 0.8987068965517241,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.5024906600249066
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9466515323496026,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6688769167012019
+                }
             }
         },
         "2": {
             "accuracy": {
-                "Password": 0.5348983464353483,
-                "SQL_injection": 0.9183660663863964,
-                "Uploading": 0.9605139243912283,
-                "XSS": 0.7781393568147014
+                "Password": 0.5221012307269014,
+                "SQL_injection": 0.9180908777321334,
+                "Uploading": 0.961909256387784,
+                "XSS": 0.8113460353190235
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.4906169111302847
+                "XSS": 0.3275568181818182
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.49526401741970605
+                "XSS": 0.3958118777892207
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2428,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2428
+                },
+                "TP": {
+                    "PW_Injection": 21366,
+                    "SQLi": 1306,
+                    "File_Inclusion": 565,
+                    "XSS": 2306
+                },
+                "TN": {
+                    "PW_Injection": 4177,
+                    "SQLi": 26665,
+                    "File_Inclusion": 27406,
+                    "XSS": 23237
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9131958099460156,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9131958099460156
+                },
+                "precision": {
+                    "PW_Injection": 0.8979574682693116,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.4871144909167723
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9462356067316209,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6551136363636363
+                }
             }
         },
         "3": {
             "accuracy": {
-                "Password": 0.5222815266658195,
-                "SQL_injection": 0.9186415141718196,
-                "Uploading": 0.9605772141679841,
-                "XSS": 0.8108390204737054
+                "Password": 0.5221856373010916,
+                "SQL_injection": 0.9188620592206487,
+                "Uploading": 0.9628641841936464,
+                "XSS": 0.8096776777846022
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.32908885116015846
+                "XSS": 0.3295916935597025
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3969283276450512
+                "XSS": 0.3972938689217759
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2429,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2429
+                },
+                "TP": {
+                    "PW_Injection": 21351,
+                    "SQLi": 1292,
+                    "File_Inclusion": 550,
+                    "XSS": 2349
+                },
+                "TN": {
+                    "PW_Injection": 4191,
+                    "SQLi": 26679,
+                    "File_Inclusion": 27421,
+                    "XSS": 23193
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9131600586321548,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9131600586321548
+                },
+                "precision": {
+                    "PW_Injection": 0.8978553406223717,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.4916282963583089
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9461789014203099,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.659183387119405
+                }
             }
         },
         "4": {
             "accuracy": {
-                "Password": 0.5226365836057223,
-                "SQL_injection": 0.9166093212386612,
-                "Uploading": 0.9617186183656277,
-                "XSS": 0.8090678757167622
+                "Password": 0.5223284726413996,
+                "SQL_injection": 0.9186966348568558,
+                "Uploading": 0.9630555180332298,
+                "XSS": 0.809291409979465
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.33035340131303254
+                "XSS": 0.3321213816249476
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.39784674909580287
+                "XSS": 0.3991261238551383
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2401,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2401
+                },
+                "TP": {
+                    "PW_Injection": 21353,
+                    "SQLi": 1295,
+                    "File_Inclusion": 547,
+                    "XSS": 2375
+                },
+                "TN": {
+                    "PW_Injection": 4217,
+                    "SQLi": 26676,
+                    "File_Inclusion": 27424,
+                    "XSS": 23195
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9141610954202567,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9141610954202567
+                },
+                "precision": {
+                    "PW_Injection": 0.8989222867727541,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.4972780569514238
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9467710111512626,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6642427632498952
+                }
             }
         },
         "5": {
             "accuracy": {
-                "Password": 0.5221646212441812,
-                "SQL_injection": 0.9196905854977674,
-                "Uploading": 0.9608305010599993,
-                "XSS": 0.8110596611439737
+                "Password": 0.5194833948339483,
+                "SQL_injection": 0.9164998749061797,
+                "Uploading": 0.9803378662554325,
+                "XSS": 0.8095873592056798
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
-                "Uploading": 0.5,
-                "XSS": 0.33021674458138545
+                "Uploading": 0.0,
+                "XSS": 0.3309503784693019
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3977476324545687
+                "XSS": 0.3982793522267206
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2973,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 561,
+                    "XSS": 2412
+                },
+                "TP": {
+                    "PW_Injection": 21302,
+                    "SQLi": 1335,
+                    "File_Inclusion": 0,
+                    "XSS": 2361
+                },
+                "TN": {
+                    "PW_Injection": 3696,
+                    "SQLi": 26636,
+                    "File_Inclusion": 27410,
+                    "XSS": 23198
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.893711343891888,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.9799435129241,
+                    "XSS": 0.913767830967788
+                },
+                "precision": {
+                    "PW_Injection": 0.8775283213182287,
+                    "SQLi": 1.0,
+                    "File_Inclusion": NaN,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 0.0,
+                    "XSS": 0.49465744814582024
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9347697303464467,
+                    "SQLi": 1.0,
+                    "File_Inclusion": NaN,
+                    "XSS": 0.6619007569386038
+                }
             }
         },
         "6": {
             "accuracy": {
-                "Password": 0.5220524433345326,
-                "SQL_injection": 0.9215772870662461,
-                "Uploading": 0.9623545285882948,
-                "XSS": 0.8087760923462451
+                "Password": 0.5223238414175347,
+                "SQL_injection": 0.9160625,
+                "Uploading": 0.9612108151789622,
+                "XSS": 0.8115028824239174
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.3299874529485571
+                "XSS": 0.3263157894736842
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3975812547241118
+                "XSS": 0.39490445859872614
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2442,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2442
+                },
+                "TP": {
+                    "PW_Injection": 21316,
+                    "SQLi": 1343,
+                    "File_Inclusion": 576,
+                    "XSS": 2294
+                },
+                "TN": {
+                    "PW_Injection": 4213,
+                    "SQLi": 26628,
+                    "File_Inclusion": 27395,
+                    "XSS": 23235
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9126952915519645,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9126952915519645
+                },
+                "precision": {
+                    "PW_Injection": 0.8972135701658389,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.484375
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9458224253449883,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6526315789473685
+                }
             }
         },
         "7": {
             "accuracy": {
-                "Password": 0.522346605605733,
-                "SQL_injection": 0.9175412763557755,
-                "Uploading": 0.9608305010599993,
-                "XSS": 0.8103646627605212
+                "Password": 0.5226348373668617,
+                "SQL_injection": 0.916390469639172,
+                "Uploading": 0.9608938547486033,
+                "XSS": 0.8090955189623422
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.3270316027088036
+                "XSS": 0.3278344750454355
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.39542818150801773
+                "XSS": 0.3960145233471249
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2463,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2463
+                },
+                "TP": {
+                    "PW_Injection": 21245,
+                    "SQLi": 1337,
+                    "File_Inclusion": 581,
+                    "XSS": 2345
+                },
+                "TN": {
+                    "PW_Injection": 4263,
+                    "SQLi": 26634,
+                    "File_Inclusion": 27390,
+                    "XSS": 23163
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.911944513960888,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.911944513960888
+                },
+                "precision": {
+                    "PW_Injection": 0.8961110173781002,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.4877287853577371
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9452094409716815,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.655668950090871
+                }
             }
         },
         "8": {
             "accuracy": {
-                "Password": 0.5218607498733322,
-                "SQL_injection": 0.9200780340454989,
-                "Uploading": 0.9623545285882948,
-                "XSS": 0.8124966464559746
+                "Password": 0.5224655295029242,
+                "SQL_injection": 0.917266862904741,
+                "Uploading": 0.9609572212311939,
+                "XSS": 0.8090724622203236
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.33109171555301187
+                "XSS": 0.3261082366102643
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3983816820177326
+                "XSS": 0.39475243334743965
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2487,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2487
+                },
+                "TP": {
+                    "PW_Injection": 21251,
+                    "SQLi": 1321,
+                    "File_Inclusion": 580,
+                    "XSS": 2332
+                },
+                "TN": {
+                    "PW_Injection": 4233,
+                    "SQLi": 26650,
+                    "File_Inclusion": 27391,
+                    "XSS": 23152
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9110864824282292,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9110864824282292
+                },
+                "precision": {
+                    "PW_Injection": 0.895231274749347,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.4839178252749533
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9447198204005425,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6522164732205286
+                }
             }
         },
         "9": {
             "accuracy": {
-                "Password": 0.5224505811487231,
-                "SQL_injection": 0.917486373034271,
-                "Uploading": 0.9622908796546141,
-                "XSS": 0.8090322236448997
+                "Password": 0.5226909098615129,
+                "SQL_injection": 0.9163357823979991,
+                "Uploading": 0.9618456975294079,
+                "XSS": 0.8106953014397521
             },
             "precision": {
                 "Password": 0.5,
                 "SQL_injection": 0.5,
                 "Uploading": 0.5,
-                "XSS": 0.32937561111887137
+                "XSS": 0.3356850571468887
             },
             "recall": {
-                "Password": 0.4895321610578027,
-                "SQL_injection": 0.499809958190802,
+                "Password": 0.4540708700006392,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
                 "XSS": 0.5
             },
             "f1score": {
-                "Password": 0.4947107131257829,
-                "SQL_injection": 0.49990496103402393,
+                "Password": 0.4759299170305189,
+                "SQL_injection": 0.0,
                 "Uploading": 0.0,
-                "XSS": 0.3971368421052632
+                "XSS": 0.40168847615027437
+            },
+            "conf_matrix": {
+                "FP": {
+                    "PW_Injection": 2329,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 0
+                },
+                "FN": {
+                    "PW_Injection": 0,
+                    "SQLi": 0,
+                    "File_Inclusion": 0,
+                    "XSS": 2329
+                },
+                "TP": {
+                    "PW_Injection": 21359,
+                    "SQLi": 1338,
+                    "File_Inclusion": 566,
+                    "XSS": 2379
+                },
+                "TN": {
+                    "PW_Injection": 4283,
+                    "SQLi": 26633,
+                    "File_Inclusion": 27405,
+                    "XSS": 23263
+                },
+                "length": 27971
+            },
+            "matrix_scores": {
+                "accuracy": {
+                    "PW_Injection": 0.9167351900182331,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.9167351900182331
+                },
+                "precision": {
+                    "PW_Injection": 0.9016801756163458,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 1.0
+                },
+                "recall": {
+                    "PW_Injection": 1.0,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.5053101104502974
+                },
+                "f1_score": {
+                    "PW_Injection": 0.9482984438475369,
+                    "SQLi": 1.0,
+                    "File_Inclusion": 1.0,
+                    "XSS": 0.6713701142937774
+                }
             }
         }
     }
